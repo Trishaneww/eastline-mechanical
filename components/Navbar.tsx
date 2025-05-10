@@ -1,45 +1,58 @@
-"use client"
-import React from 'react'
-import Link from 'next/link'
-import { cn } from '@/lib/utils'
-import '../styles/global.scss';
-import { Instagram, Menu, X } from 'lucide-react'
-import { Button } from './ui/button'
-import "../styles/global.scss"
-import { navItems } from '@/data';
-
+"use client";
+import React from "react";
+import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { Instagram, Menu, X } from "lucide-react";
+import { Button } from "./ui/button";
+import "../styles/global.scss";
+import { navItems } from "@/data";
 
 const Navbar = () => {
- 
   return (
-    <div className="fixed top-0 flex w-full justify-center items-center py-5 navbar gap-8 px-4 lg:px-12 border-b-[1px] border-b-gray-500 z-[100] bg-[#1a1a1abb] backdrop-blur-3xl">
-      <div className="flex justify-between items-center w-full lg:w-[80%]">
-        <div className="flex gap-8 items-center">
-          <Link href='/' className={cn(
-                "relative dark:text-slate-50 items-center flex space-x-1 text-slate-50"
-              )}
-              aria-label="homepage link">
-                <p className="text-lg lg:text-xl font-extrabold">FIGMENT STUDIOS</p>
+    <div className="flex w-full justify-between items-center navbar gap-8 px-4 text-black backdrop-blur-3xl overflow-hidden lg:px-32 py-8">
+      <div className="flex gap-8 items-center w-1/3">
+        <Link
+          href="/"
+          className={cn(
+            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-950"
+          )}
+          aria-label="homepage link"
+        >
+          <p className="text-lg lg:text-xl font-extrabold">
+            EASTLINE MECHANICAL
+          </p>
+        </Link>
+      </div>
+
+      <div className="flex justify-center items-center gap-8 w-1/3">
+        {navItems.map((item, idx) => (
+          <Link
+            href={item.href}
+            key={idx}
+            className={cn(
+              "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950"
+            )}
+            aria-label="navigation link"
+          >
+            {item.title}
           </Link>
+        ))}
+        <Button className="h-[50px] w-[160px] text-base">Request a call</Button>
+      </div>
 
-          <div className="flex justify-center items-center gap-8">
-            {navItems.map((item,idx) => (
-              <Link href={item.href} key={idx} className={cn("relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 tracking-widest text-sm")} aria-label="navigation link">{item.title}</Link>
-            ))}
-          </div>
-          <Link href="https://www.instagram.com/figmentstudios.ca/" className="text-slate-50" aria-label="instagram link"><Instagram className="hidden lg:flex"/></Link>
-        </div>
+      {/* <div className="flex gap-8 items-center w-1/3 justify-end">
+        <Link
+          href="mailto:trishane@figmentstudios.ca"
+          className={cn(
+            "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950 tracking-widest text-sm"
+          )}
+          aria-label="email us link"
+        >
+          CONTACT US
+        </Link>
+      </div> */}
 
-        <div className="flex gap-8 items-center text-slate-50">
-          <Link href='mailto:trishane@figmentstudios.ca' className={cn("relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 tracking-widest text-sm")} aria-label="email us link">CONTACT US</Link>
-          <Link href='/contact' className={cn("relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-50 tracking-widest text-sm")} aria-label="get a free audit">GET A FREE AUDIT</Link>
-        </div>
-
-
-
-
-
-    <nav className="lg:hidden bg-transparent">
+      {/* <nav className="lg:hidden bg-transparent">
       <input type="checkbox" id="sidebar-active" />
       <label htmlFor="sidebar-active" className="open-sidebar-button text-gray-500 mt-9 flex justify-center items-center rounded-lg border-[1px] border-gray-500 p-2 bg-[#1a1a1a]">
         <Menu  size={20}/>
@@ -60,10 +73,9 @@ const Navbar = () => {
         </div>
 
       </div>
-    </nav>
+    </nav> */}
+    </div>
+  );
+};
 
-      </div>
-  </div>
-  )}
-
-export default Navbar
+export default Navbar;

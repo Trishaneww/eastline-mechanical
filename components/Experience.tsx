@@ -1,32 +1,48 @@
-import { Check } from 'lucide-react'
+import { CircleCheck } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 import { Button } from './ui/button'
 
 const Experience = () => {
   return (
-    <div className="flex w-full h-[50vh] px-12 bg-slate-900 gap-12 py-12">
+    <div className="flex w-full  px-12 bg-blue-950 gap-12 py-20 mt-12 lg:mt-28">
         <section className="w-1/2 flex justify-end">
             <Image
                 src="/images/image1.png" 
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 alt="plumber installing fountain"
             />
         </section>
+        {/* <Image
+                src="/images/image1.png" 
+                width={1000}
+                height={1000}
+                alt="plumber installing fountain"
+            /> */}
 
         <section className="flex flex-col w-1/2">
-            <p>Our Experience</p>
-            <p>We're committed to guaranteeing customer satisfaction and excellence</p>
+            <p>- OUR EXPERIENCE -</p>
+            <p className="text-4xl font-semibold text-left w-2/3 mt-8">We're committed to guaranteeing customer satisfaction and excellence</p>
 
-            <ul className="flex flex-col">
-                <li className="">
-                    <Check />
-                    <p className="">10+ years experience</p>
+            <ul className="flex flex-col gap-2 my-8">
+                <li className="flex items-center gap-2">
+                    <CircleCheck />
+                    <p className="text-lg">10+ years experience</p>
+                </li>
+
+                <li className="flex items-center gap-2">
+                    <CircleCheck />
+                    <p className="text-lg">10+ years experience</p>
+                </li>
+
+                <li className="flex items-center gap-2">
+                    <CircleCheck />
+                    <p className="text-lg">10+ years experience</p>
                 </li>
             </ul>
 
-            <Button className="h-[50px] w-[200px] bg-white">Get a quote</Button>
+            <Button className="h-[50px] w-[200px] border-[1px] border-white text-lg">Get a quote</Button>
         </section>
     </div>
   )

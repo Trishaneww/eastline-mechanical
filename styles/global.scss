@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
 .scroll {
   scroll-behavior: smooth;
@@ -93,7 +88,7 @@
 
 nav {
   margin-top: -35px;
-  height: 10px;
+  height: 100px;
   width:30px;
   background-color:#1A1A1A;
   display: flex;
