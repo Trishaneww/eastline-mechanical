@@ -7,7 +7,7 @@ interface WavyCircleProps {
 
 export default function WavyCircle({ children }: WavyCircleProps) {
   return (
-    <div className="w-[220px] aspect-square relative text-white">
+    <div className="w-[190px] lg:w-[220px] aspect-square relative text-white">
       <svg
         viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg"

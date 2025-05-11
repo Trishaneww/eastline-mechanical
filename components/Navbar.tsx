@@ -9,7 +9,7 @@ import { navItems } from "@/data";
 
 const Navbar = () => {
   return (
-    <div className="flex w-full justify-between items-center navbar gap-8 px-4 text-black backdrop-blur-3xl overflow-hidden lg:px-32 py-8">
+    <div className="flex w-full justify-between items-center navbar gap-8 px-4 text-black overflow-hidden lg:px-32 xl:px-72 py-8 z-30">
       <div className="flex gap-8 items-center w-1/3">
         <Link
           href="/"
@@ -24,20 +24,20 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="flex justify-center items-center gap-8 w-1/3">
+      <div className="flex justify-center items-center gap-6 w-1/3">
         {navItems.map((item, idx) => (
           <Link
             href={item.href}
             key={idx}
             className={cn(
-              "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950"
+              "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950 font-semibold text-base"
             )}
             aria-label="navigation link"
           >
             {item.title}
           </Link>
         ))}
-        <Button className="h-[50px] w-[160px] text-base">Request a call</Button>
+        <Button className="h-[45px] w-[160px] text-base bg-blue-500">Request a call</Button>
       </div>
 
       {/* <div className="flex gap-8 items-center w-1/3 justify-end">

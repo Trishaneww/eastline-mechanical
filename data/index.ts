@@ -2,22 +2,22 @@ export const navItems = [
     {
         id:1,
         title: 'About',
-        href:"/pricing"
+        href:"/"
     },
     {
         id:2,
         title: 'Services',
-        href:"/work"
+        href:"/services"
     },
     {
         id:2,
         title: 'Testimonials',
-        href:"/work"
+        href:"/#testimonials"
     },
     {
         id:2,
         title: 'Contact',
-        href:"/work"
+        href:"/contact"
     },
 ]
 
