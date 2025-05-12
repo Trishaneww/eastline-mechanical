@@ -7,9 +7,9 @@ import { Button } from "./ui/button";
 
 const Services = () => {
   return (
-    <div className="flex flex-col text-black text-left lg:text-center w-full mt-12 lg:mt-28 px-6">
+    <div className="flex flex-col text-black text-left lg:text-center w-full mt-12 lg:mt-32 px-6">
       <section className="flex flex-col lg:items-center justify-center gap-4">
-      <p className="text-base font-light mt-6 text-blue-500">
+      <p className="text-sm lg:text-base mt-6 text-blue-500">
             - OUR SERVICES - 
           </p>
         <p className="text-3xl lg:text-5xl lg:w-1/2 xl:w-1/3 font-semibold">

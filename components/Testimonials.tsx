@@ -27,7 +27,7 @@ const Testimonials: React.FC = () => {
     <div className="flex flex-col mt-12 lg:mt-32 mb-20 text-left lg:text-center items-center gap-12 w-full">
       <div className="flex flex-col lg:items-center gap-2 w-full px-6">
         <section className="flex flex-col lg:items-center justify-center gap-4">
-          <p className="text-base font-light mt-6 text-blue-500">
+          <p className="text-sm lg:text-base mt-6 text-blue-500">
             - TESTIMONIALS -
           </p>
           <p className="text-3xl lg:text-5xl lg:w-1/2  font-semibold">
@@ -38,13 +38,7 @@ const Testimonials: React.FC = () => {
             needs and preferences in mind, ensuring the perfect fit for your
             home or business.
           </p>
-
-          <Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">
-            View services
-          </Button>
         </section>
-
-        
 
         <div className="lg:hidden relative xl:max-w-[1300px] max-h-full mx-auto mt-12 w-full">
           <div className="w-full ">

@@ -41,11 +41,11 @@ const Hero = () => {
     } catch (err) {}
   };
   return (
-    <div className="flex flex-col text-black justify-start items-center text-center gap-4 mt-12 lg:mt-28 z-20">
-      <p className="font-bold text-6xl w-1/2">
-        Eastline Mechanical - Fast & Reliable Plumbing Services
+    <div className="flex flex-col text-black justify-start items-center text-center gap-4 mt-12 lg:mt-28 z-20 px-6 lg:h-[100vh]">
+      <p className="font-bold text-4xl lg:text-6xl lg:w-1/2">
+        Eastline <span className="text-blue-500">Mechanical</span> - Fast & Reliable Plumbing Services
       </p>
-      <p className="w-1/2 mt-4 text-lg">
+      <p className="lg:w-1/2 mt-4 text-base lg:text-lg">
         Your trusted partner for fast, reliable, and professional plumbing and
         rooter services. Whether it's a clogged drain, emergency plumbing, or a
         full pipe replacement, SwiftRooter has you covered 24/7.
@@ -57,16 +57,17 @@ const Hero = () => {
           width={200}
           height={200}
           alt="testimonial images"
+          className="max-w-[160px] lg:max-w-[180px]"
         />
         <div className="flex flex-col items-start justify-center">
-          <p className="text-xl font-bold">100+ Clients</p>
+          <p className="text-base lg:text-xl font-bold">100+ Clients</p>
           <p>Loved our services</p>
         </div>
       </section>
 
       <form
         onSubmit={sendEmail}
-        className="w-[90%] max-w-[1200px] flex flex-col gap-2 rounded-xl px-4 lg:px-10 py-4 pt-6 border-[1px] border-gray-200 bg-white text-black mt-44"
+        className="w-full max-w-[1200px] flex flex-col gap-2 rounded-xl px-4 lg:px-10 py-4 pt-6 border-[1px] border-gray-200 bg-white text-black lg:mt-44 xl:mt-72"
       >
           <div className="flex flex-col lg:flex-row gap-4 items-end">
             <div className="flex flex-col items-start gap-1 w-full">
@@ -75,7 +76,7 @@ const Hero = () => {
                 type="text"
                 placeholder="Name"
                 name="full_name"
-                className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                className="w-full h-[45px] lg:h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
               />
             </div>
 
@@ -85,7 +86,7 @@ const Hero = () => {
                 type="text"
                 placeholder="Email"
                 name="email"
-                className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                className="w-full h-[45px] lg:h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
               />
             </div>
 
@@ -95,7 +96,7 @@ const Hero = () => {
                 type="text"
                 placeholder="Name"
                 name="website"
-                className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                className="w-full h-[45px] lg:h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
               />
             </div>
 
@@ -105,12 +106,12 @@ const Hero = () => {
                 type="text"
                 placeholder="Name"
                 name="website"
-                className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                className="w-full h-[45px] lg:h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
               />
             </div>
             <Button
               type="submit"
-              className="w-full lg:max-w-[300px] h-[50px] bg-slate-950 text-white text-base"
+              className="w-full lg:max-w-[300px] h-[45px] lg:h-[50px] bg-slate-950 text-white text-base"
             >
               Request a free quote
             </Button>

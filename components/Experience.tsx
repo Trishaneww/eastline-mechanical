@@ -5,13 +5,14 @@ import { Button } from './ui/button'
 
 const Experience = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row w-full px-6 bg-blue-950 gap-12 py-20 mt-12 lg:mt-28 text-white">
+    <div className="flex flex-col-reverse lg:flex-row w-full px-6 bg-blue-950 gap-12 py-20 mt-12 lg:mt-32 text-white">
         <section className="w-full lg:w-1/2 flex justify-start lg:justify-end">
             <Image
                 src="/images/image1.png" 
                 width={500}
                 height={500}
                 alt="plumber installing fountain"
+                className="rounded-lg"
             />
         </section>
         {/* <Image
@@ -22,7 +23,7 @@ const Experience = () => {
             /> */}
 
         <section className="flex flex-col w-full lg:w-1/2">
-            <p>- OUR EXPERIENCE -</p>
+            <p className="text-sm lg:text-base">- OUR EXPERIENCE -</p>
             <p className="text-3xl lg:text-4xl font-semibold text-left lg:w-2/3 mt-8">We're committed to guaranteeing customer satisfaction and excellence</p>
 
             <ul className="flex flex-col gap-2 my-8">
@@ -42,7 +43,7 @@ const Experience = () => {
                 </li>
             </ul>
 
-            <Button className="h-[50px] w-[200px] border-[1px] border-white text-lg">Get a quote</Button>
+            <Button className="h-[50px] w-[200px] border-[1px] border-white text-lg bg-transparent">Get a quote</Button>
         </section>
     </div>
   )

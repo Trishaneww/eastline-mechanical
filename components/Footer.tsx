@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col text-black w-full px-2 lg:px-40 bg-indigo-50 py-16">
+    <div className="flex flex-col text-black w-full px-2 lg:px-40 bg-indigo-100 py-16">
       <section className="flex flex-wrap justify-between w-full border-b-[1px] border-gray-300 pb-12 px-6">
         <p className="text-lg lg:text-2xl font-semibold w-full lg:max-w-[300px]">
           EASTLINE MECHANICAL
@@ -82,7 +82,7 @@ const Footer = () => {
               placeholder="name@gmail.com"
               className="h-[50px] w-full bg-white"
             />
-            <Button className="h-[50px] w-full lg:w-[160px] text-base">Subscribe</Button>
+            <Button className="h-[50px] w-full lg:w-[160px] text-base bg-blue-500">Subscribe</Button>
           </form>
         </div>
       </section>

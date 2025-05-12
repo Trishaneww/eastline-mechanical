@@ -16,18 +16,18 @@ const page = () => {
   return (
     <div className="flex flex-col overflow-hidden items-center #FAFAFA">
       <Navbar />
-      <div className="h-[100vh] w-full absolute ">
+      <div className="h-[130vh] md:h-[100vh] w-full absolute">
         <Image
-          src="/images/hero.jpg"
+          src="/images/hero.png"
           width={1000}
           height={1000}
           alt="testimonial images"
-          className="object-cover h-full w-full relative brightness-150"
+          className="object-cover h-full w-full relative brightness-110"
         />
       </div>
       <Hero />
       <Features />
-      {/* <About /> */}
+      <About />
       <Services />
       <Steps />
       <Experience />
