@@ -11,8 +11,9 @@ import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { toast } from "sonner";
 import Link from "next/link";
+import { services } from "@/data";
 
-const Drainage = () => {
+const Waterinstallation = () => {
   const [emailError, setEmailError] = useState("");
   const [nameError, setNameError] = useState("");
 
@@ -54,7 +55,9 @@ const Drainage = () => {
           <p className="text-base lg:text-lg">All services</p>
         </Link>
 
-        <p className="text-3xl lg:text-4xl font-semibold">Sewer drainage</p>
+        <p className="text-3xl lg:text-4xl font-semibold mt-2">
+        Water Heater Installation & Repair
+        </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
           <Image
@@ -69,66 +72,29 @@ const Drainage = () => {
         <section className="flex flex-col lg:flex-row gap-2">
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
-              <p className="text-base font-semibold">
-                Expert Sewer Line Services: Keeping Your Plumbing System Flowing
-                Smoothly
+              <p className="text-[17px] font-semibold">
+              Hot Water When You Need It, Without the Hassle
               </p>
-              <p className="text-base">
-                Sewer lines are the unsung heroes of your plumbing system,
-                responsible for safely transporting wastewater away from your
-                home or business. However, when issues arise with these vital
-                underground conduits, it can lead to significant disruptions and
-                health hazards. That's where our expert plumbers step in,
-                offering comprehensive sewer line services to address a range of
-                issues and ensure the uninterrupted flow of wastewater.
+              <p className="text-[17px]">
+              Few things are more inconvenient than running out of hot water. At Eastline Mechanical, we offer complete water heater installation and repair services for both traditional tank and modern tankless systems. Whether you’re replacing an outdated unit or experiencing issues with inconsistent heating, we ensure your hot water system is running safely and efficiently.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
-              <p className="text-base font-semibold">
-                Expert Sewer Line Services: Keeping Your Plumbing System Flowing
-                Smoothly
+              <p className="text-[17px] font-semibold">
+              Protect Your Comfort and Your Utility Bill
               </p>
-              <p className="text-base">
-                Sewer lines are the unsung heroes of your plumbing system,
-                responsible for safely transporting wastewater away from your
-                home or business. However, when issues arise with these vital
-                underground conduits, it can lead to significant disruptions and
-                health hazards. That's where our expert plumbers step in,
-                offering comprehensive sewer line services to address a range of
-                issues and ensure the uninterrupted flow of wastewater.
+              <p className="text-[17px]">
+              A failing water heater doesn’t just impact your daily comfort—it can spike energy costs and even cause flooding if the tank leaks. Our team will assess your current unit and recommend the best course of action, whether that’s a precision repair or an energy-efficient replacement tailored to your household’s needs.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
-              <p className="text-base font-semibold">
-                Expert Sewer Line Services: Keeping Your Plumbing System Flowing
-                Smoothly
+              <p className="text-[17px] font-semibold">
+              Professional Installations that Last
               </p>
-              <p className="text-base">
-                Sewer lines are the unsung heroes of your plumbing system,
-                responsible for safely transporting wastewater away from your
-                home or business. However, when issues arise with these vital
-                underground conduits, it can lead to significant disruptions and
-                health hazards. That's where our expert plumbers step in,
-                offering comprehensive sewer line services to address a range of
-                issues and ensure the uninterrupted flow of wastewater.
-              </p>
-            </div>
-
-            <div className="flex flex-col text-left lg:w-[85%]">
-              <p className="text-base font-semibold">
-                Expert Sewer Line Services: Keeping Your Plumbing System Flowing
-                Smoothly
-              </p>
-              <p className="text-base">
-                Sewer lines are the unsung heroes of your plumbing system,
-                responsible for safely transporting wastewater away from your
-                home or business. However, when issues arise with these vital
-                underground conduits, it can lead to significant disruptions and
-                health hazards. That's where our expert plumbers step in,
-                offering comprehensive sewer line services to address a range of
-                issues and ensure the uninterrupted flow of wastewater.
+              <p className="text-[17px]">
+              Installing a water heater requires proper setup, secure connections, and code compliance. We handle the process from start to finish, so you don’t have to worry about future issues. Trust Eastline Mechanical to keep your hot water flowing reliably.<span className="text-blue-500"><Link href="/contact">Contact us today</Link></span> to schedule service or request an estimate for a new installation.
               </p>
             </div>
           </div>
@@ -199,6 +165,46 @@ const Drainage = () => {
             </p>
           </form>
         </section>
+
+        <div className="flex flex-col gap-2 mt-20">
+          <p className="text-3xl lg:text-4xl font-semibold">
+            View other services
+          </p>
+
+          <section className="flex flex-wrap justify-between gap-4 lg:gap-0 items-center mt-10">
+            {services.slice(0, 3).map((service, idx) => (
+              <div
+                className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full h-[460px] max-w-[360px] lg:w-[32%] overflow-hidden"
+                key={idx}
+              >
+                <div className="relative overflow-hidden h-[380px]">
+                  <Image
+                    width={1000}
+                    height={1000}
+                    src={service.src}
+                    alt="service image"
+                    className="h-[380px] hover:scale-110 duration-500 transition-transform"
+                  />
+                </div>
+
+                <div className="flex flex-col justify-between px-4 py-4 items-start text-center h-full">
+                  <div className="flex flex-col">
+                    <p className="font-semibold text-lg w-full">
+                      {service.title}
+                    </p>
+                    <p className="mt-2 text-base">{service.description}</p>
+                  </div>
+                  <Link
+                    href={`${service.link}`}
+                    className="w-full text-blue-500 font-semibold text-base mt-12"
+                  >
+                    View service
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </section>
+        </div>
       </div>
 
       <CTA />
@@ -207,4 +213,4 @@ const Drainage = () => {
   );
 };
 
-export default Drainage;
+export default Waterinstallation;

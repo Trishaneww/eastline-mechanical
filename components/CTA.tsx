@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const CTA = () => {
   return (
@@ -9,7 +10,8 @@ const CTA = () => {
             <p className="font-semibold text-3xl lg:text-5xl w-full">Have a plumbing issue?
             Leave it to us!</p>
             <p className="md:w-2/3 lg:w-full text-base">Experiencing a plumbing issue? Don't wait - our expert team is here to provide immediate assistance and resolve your plumbing problems swiftly and effectively!</p>
-            <Button className="h-[50px] w-full md:w-[220px] lg:w-[170px] bg-blue-500 border-[1px] border-white mt-6 font-semibold text-base">Contact Us</Button>
+            <Link href="/contact"> <Button className="h-[50px] w-full md:w-[220px] lg:w-[170px] bg-blue-500 border-[1px] border-white mt-6 font-semibold text-base">Contact Us</Button></Link>
+           
         </section>
         <section className="flex items-end h-full">
             <Image

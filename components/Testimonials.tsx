@@ -1,11 +1,9 @@
 "use client";
 import { services, testimonials } from "@/data";
-import Image from "next/image";
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import "../styles/global.scss";
 import { IoIosStar } from "react-icons/io";
-import { Button } from "./ui/button";
 
 const Testimonials: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -52,14 +50,14 @@ const Testimonials: React.FC = () => {
             >
               {testimonials.map((testimonial, idx) => (
                 <div
-                  className="bg-red-200 border-[1px] text-black border-gray-200 rounded-lg flex flex-col items-stretch justify-between h-[480px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)]"
+                  className="bg-white border-[1px] text-black border-gray-200 rounded-lg flex flex-col justify-between pt-4 pb-6 h-[440px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)]"
                   key={idx}
                 >
                   <div className="flex flex-col p-2 px-6 py-4">
                     <p className="text-base font-light">{testimonial.review}</p>
                   </div>
 
-                  <div className="flex flex-col items-start px-6 mt-12">
+                  <div className="flex flex-col items-start px-6">
                     <div className="flex items-center">
                       <p className="">{testimonial.name}</p>
                     </div>
@@ -106,14 +104,14 @@ const Testimonials: React.FC = () => {
             >
               {testimonials.map((testimonial, idx) => (
                 <div
-                  className="bg-white border-[1px] text-black border-gray-200 rounded-lg flex flex-col h-[320px] xl:h-[380px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)]"
+                  className="bg-white border-[1px] text-black border-gray-200 rounded-lg flex flex-col justify-between h-[440px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)] pb-6 pt-4"
                   key={idx}
                 >
                   <div className="flex flex-col p-2 px-6 py-4">
-                    <p className="text-base font-light">{testimonial.review}</p>
+                    <p className="text-base font-light text-left">{testimonial.review}</p>
                   </div>
 
-                  <div className="flex flex-col items-start px-6 mt-12">
+                  <div className="flex flex-col items-start px-6">
                     <div className="flex items-center">
                       <p className="">{testimonial.name}</p>
                     </div>

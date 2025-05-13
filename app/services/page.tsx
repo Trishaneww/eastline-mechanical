@@ -23,33 +23,39 @@ const Services = () => {
       </section>
 
       <section className="flex flex-wrap justify-center items-center gap-6 mt-12 lg:px-32">
-              {services.map((service, idx) => (
-                  <div className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full max-w-[360px] md:max-w-[320px] overflow-hidden" key={idx}>
-                      <div className="relative overflow-hidden h-[220px]">
-                          <Image
-                              width={1000}
-                              height={1000}
-                              src={service.src}
-                              alt="service image"
-                              className="h-[380px] hover:scale-110 duration-500 transition-transform"
-                          />
-                      </div>
-      
-                      <div className="flex flex-col px-4 py-4 items-start text-center">
-                          <p className="font-semibold text-lg w-full">{service.title}</p>
-                          <p className="mt-2 text-base">{service.description}</p>
-                          <Link href='/drainage' className="w-full text-blue-500 font-semibold text-base mt-12">View service</Link>
-                      </div>
-                  </div>
-              ))}
-              
-            </section>
+        {services.map((service, idx) => (
+          <div
+            className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full h-[460px] max-w-[360px] md:max-w-[320px] overflow-hidden"
+            key={idx}
+          >
+            <div className="relative overflow-hidden h-[380px]">
+              <Image
+                width={1000}
+                height={1000}
+                src={service.src}
+                alt="service image"
+                className="h-[380px] hover:scale-110 duration-500 transition-transform"
+              />
+            </div>
 
+            <div className="flex flex-col justify-between px-4 py-4 items-start text-center h-full">
+              <div className="flex flex-col">
+                <p className="font-semibold text-lg w-full">{service.title}</p>
+                <p className="mt-2 text-base">{service.description}</p>
+              </div>
+              <Link
+                href={`${service.link}`}
+                className="w-full text-blue-500 font-semibold text-base mt-12"
+              >
+                View service
+              </Link>
+            </div>
+          </div>
+        ))}
+      </section>
 
-            <CTA />
-            <Footer />
-
-
+      <CTA />
+      <Footer />
     </div>
   );
 };

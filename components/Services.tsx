@@ -4,6 +4,7 @@ import WavyCircle from "./WavyCircle";
 import { services } from "@/data";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -19,12 +20,14 @@ const Services = () => {
         Individually tailored plumbing solutions designed with your unique needs and preferences in mind, ensuring the perfect fit for your home or business.
         </p>
 
-        <Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">View services</Button>
+        <Link href="/services"><Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">View services</Button></Link>
+
+       
       </section>
 
       <section className="flex flex-wrap justify-center items-center gap-6 mt-12 lg:px-32">
         {services.map((service, idx) => (
-            <div className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full max-w-[360px] md:max-w-[320px] overflow-hidden" key={idx}>
+            <div className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full h-[440px] max-w-[360px] md:max-w-[320px] overflow-hidden" key={idx}>
                 <div className="relative overflow-hidden h-[220px]">
                     <Image
                         width={1000}

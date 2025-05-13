@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import { CircleCheck } from "lucide-react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -55,9 +56,11 @@ const About = () => {
             </p>
           </li>
         </ul>
-        <Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500">
+        <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500">
           Get a quote
         </Button>
+        </Link>
+        
       </section>
 
       <section className="w-full lg:w-1/2 flex justify-end mt-8 lg:mt-16">
