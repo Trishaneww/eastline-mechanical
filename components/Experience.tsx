@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section className="flex relative lg:h-[60vh] overflow-hidden w-full mt-12 lg:mt-32">
       <div className="backgroundImage brightness-[30%]" />
-      <div className="flex flex-col-reverse lg:flex-row justify-center w-full px-6 gap-12 lg:gap-20 pt-20 text-white z-30">
+      <div className="flex flex-col-reverse lg:flex-row justify-center w-full px-6 gap-12 lg:gap-20 pt-20 text-white z-20">
         <section className="flex flex-col items-center justify-center w-full lg:w-1/3 bg-blue-500 text-white rounded-tr-2xl rounded-tl-2xl text-center gap-4 px-2 lg:px-12 py-6">
           <p className="font-semibold text-3xl lg:text-4xl">
             Start Your Plumbing Project with Confidence

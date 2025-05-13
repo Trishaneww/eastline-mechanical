@@ -2,14 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { Menu, X } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { Button } from "./ui/button";
 import "../styles/global.scss";
-import { navItems } from "@/data";
+import { navItems, services } from "@/data";
 
 const Navbar = () => {
   return (
-    <div className="flex w-[95%] lg:w-[60%] justify-between items-center navbar gap-8 px-4 text-black overflow-hidden py-2 z-30 bg-[#FFFF] rounded-2xl mt-6">
+    <div className="flex w-[95%] lg:w-[60%] justify-between items-center navbar gap-8 px-4 text-black overflow-hidden py-2 z-30 bg-[#FFFF] rounded-2xl mt-6 fixed">
       <div className="flex gap-8 items-center w-full lg:w-1/3">
         <Link
           href="/"
@@ -19,7 +19,7 @@ const Navbar = () => {
           aria-label="homepage link"
         >
           <p className="text-lg lg:text-xl font-extrabold">
-            EASTLINE MECHANICAL
+            Eeastline <span className="text-blue-500">Mechanical</span>
           </p>
         </Link>
       </div>
@@ -42,11 +42,11 @@ const Navbar = () => {
       <div className="hidden lg:flex gap-8 items-center lg:w-1/3 justify-end">
         <Link
           href="tel:416-995-4979">
-          <Button className="h-[45px] w-[160px] text-base bg-blue-500">Call us now</Button>
+          <Button className="h-[45px] w-[160px] text-base bg-blue-500"><Phone /> Call us now</Button>
         </Link>
       </div>
 
-<nav className="lg:hidden bg-transparent">
+<nav className="lg:hidden bg-transparent z-40">
       <input type="checkbox" id="sidebar-active" />
       <label htmlFor="sidebar-active" className="open-sidebar-button text-gray-500 flex justify-center items-center rounded-lg border-[1px] border-gray-500 p-2 bg-white">
         <Menu  size={20}/>
@@ -58,12 +58,15 @@ const Navbar = () => {
         
         </label>
         <div className="flex flex-col gap-2 w-full text-center font-semibold mt-12">
-          <Link href="/" className="text-black w-full text-lg" aria-label="navigation link">About</Link> 
-          <Link href="/work" className="text-black -mt-4 w-full text-lg" aria-label="navigation link">Services</Link>
-          <Link href="/pricing" className="text-black -mt-4 w-full text-lg" aria-label="navigation link">Contact Us</Link>
-          <Link href="/contact" aria-label="navigation link w-full text-lg">
-            <Button className="w-full h-[50px] bg-blue-500 text-white text-sm">GET A FREE REDESIGN</Button>
-          </Link>
+          <Link href="/about" className="text-black w-full text-lg" aria-label="navigation link">About</Link> 
+          {services.map((service, idx) => (
+            <Link href={service.link} className="text-black -mt-4 w-full text-lg" key={idx}>{service.title}</Link>
+          ))}
+          <Link href="/contact" className="text-black -mt-4 w-full text-lg" aria-label="navigation link">Contact Us</Link>
+          <Link
+          href="tel:416-995-4979">
+          <Button className="h-[48px] w-full text-base bg-blue-500 text-white">Call us now</Button>
+        </Link>
         </div>
 
       </div>

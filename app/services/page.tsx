@@ -12,7 +12,7 @@ const Services = () => {
     <div className="flex flex-col items-center bg-[#FAFAFA]">
       <Navbar />
       <section className="flex flex-col md:items-center justify-center gap-4 text-left md:text-center px-6 w-full">
-        <p className="text-3xl md:text-5xl md:w-1/2 xl:w-1/3 font-semibold mt-20 lg:mt-32">
+        <p className="text-3xl md:text-5xl md:w-1/2 xl:w-1/3 font-semibold mt-32 lg:mt-56">
           Plumbing solutions tailored for you
         </p>
         <p className="text-base md:text-lg text-slate-600 md:w-1/2 xl:w-1/3">
@@ -34,7 +34,7 @@ const Services = () => {
                 height={1000}
                 src={service.src}
                 alt="service image"
-                className="h-[380px] hover:scale-110 duration-500 transition-transform"
+                className="hover:scale-110 duration-500 transition-transform  h-full w-full"
               />
             </div>
 

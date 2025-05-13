@@ -48,7 +48,7 @@ const Contact = () => {
     <div className="flex flex-col items-center">
       <Navbar />
 
-      <div className="flex flex-col lg:flex-row gap-16 justify-center mt-20 lg:mt-36 px-6">
+      <div className="flex flex-col lg:flex-row gap-16 justify-center mt-32 lg:mt-56 px-6">
         <section className="flex flex-col lg:w-1/4 gap-2">
           <p className="font-semibold text-3xl lg:text-4xl">Contact us</p>
           <p className="text-left">

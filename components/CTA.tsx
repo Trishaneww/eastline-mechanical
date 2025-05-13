@@ -17,7 +17,7 @@ const CTA = () => {
             <Image
                 height={380}
                 width={380}
-                src="/images/image1.png" 
+                src="/images/cta.png" 
                 alt="call to action image"
                 className="rounded-tl-xl rounded-tr-xl mt-4 lg:mt-0"
             />

@@ -34,7 +34,7 @@ const Services = () => {
                         height={1000}
                         src={service.src}
                         alt="service image"
-                        className="h-[380px] hover:scale-110 duration-500 transition-transform"
+                        className="hover:scale-110 duration-500 transition-transform h-full w-full"
                     />
                 </div>
 

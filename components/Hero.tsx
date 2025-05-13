@@ -41,7 +41,7 @@ const Hero = () => {
     } catch (err) {}
   };
   return (
-    <div className="flex flex-col text-black justify-start items-center text-center gap-4 mt-12 lg:mt-28 z-20 px-6 lg:h-[100vh]">
+    <div className="flex flex-col text-black justify-start items-center text-center gap-4 mt-32 lg:mt-52 z-20 px-6 lg:h-[100vh]">
       <p className="font-bold text-4xl lg:text-6xl lg:w-[55%]">
         Eastline <span className="text-blue-500">Mechanical</span> - Fast &
         Reliable Plumbing Services
@@ -58,9 +58,9 @@ const Hero = () => {
           alt="testimonial images"
           className="max-w-[160px] lg:max-w-[180px]"
         />
-        <div className="flex flex-col items-start justify-center">
-          <p className="text-base lg:text-xl font-bold">100+ Clients</p>
-          <p>Loved our services</p>
+        <div className="flex flex-col items-start justify-center text-left">
+          <p className="text-base lg:text-xl font-bold">50+ Customers</p>
+          <p>Rated our service 5 stars on google</p>
         </div>
       </section>
 

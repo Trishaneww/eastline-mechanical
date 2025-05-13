@@ -26,31 +26,31 @@ export const services = [
     {
         title:"Drain Cleaning & Unclogging",
         description: "Professional removal of blockages in sinks, tubs, showers, and floor drains to restore proper water flow and prevent backups.",
-        src:"/images/service1.avif",
+        src:"/images/drain-cleaning.jpg",
         link:"/drain-cleaning"
     },
     {
         title:"Leak Detection & Repair",
         description: "Identifying and repairing leaks in pipes, faucets, and fixtures to prevent water damage and reduce utility costs.",
-        src:"/images/service1.avif",
+        src:"/images/leak-detection.jpg",
         link:"/leak-detection"
     },
     {
         title:"Toilet Installation & Repair",
         description: "Installing new toilets or fixing common issues like running, clogging, or flushing problems to ensure full functionality.",
-        src:"/images/service1.avif",
+        src:"/images/toilet-installation.png",
         link:"/toilet-installation"
     },
     {
         title:"Water Heater Installation & Repair",
         description: "Servicing or replacing water heaters (tank or tankless) to ensure reliable access to hot water in homes and businesses.",
-        src:"/images/service1.avif",
+        src:"/images/water-heater.png",
         link:"/water-heater-installation"
     },
     {
         title:"Fixture Installation (Faucets, Sinks, Showers)",
         description: "Upgrading or installing kitchen and bathroom fixtures with modern, efficient options tailored to the property.",
-        src:"/images/service1.avif",
+        src:"/images/service3.avif",
         link:"/fixture-installation"
     },
     {
@@ -62,13 +62,13 @@ export const services = [
     {
         title:"Emergency Plumbing Services",
         description: "Quick-response services for urgent issues like burst pipes, sewer backups, and flooding to minimize damage.",
-        src:"/images/service1.avif",
+        src:"/images/emergency.png",
         link:"/emergency-plumbing"
     },
     {
         title:"Commercial Plumbing Solutions",
         description: "Custom plumbing solutions for offices, retail, restaurants, and industrial properties, including maintenance, repairs, and installations.",
-        src:"/images/service1.avif",
+        src:"/images/commercial.png",
         link:"/commercial-plumbing"
     },
 ]
