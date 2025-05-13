@@ -40,16 +40,10 @@ const Footer = () => {
               Etobicoke
             </li>
             <li>
-              Burlington
+              Hamilton
             </li>
             <li>
-              Etobicoke
-            </li>
-            <li>
-              Burlington
-            </li>
-            <li>
-              Etobicoke
+              Toronto
             </li>
           </ul>
         </div>
