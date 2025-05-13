@@ -52,7 +52,7 @@ const Testimonials: React.FC = () => {
             >
               {testimonials.map((testimonial, idx) => (
                 <div
-                  className="bg-white border-[1px] text-black border-gray-200 rounded-lg flex flex-col h-[320px] xl:h-[380px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)]"
+                  className="bg-red-200 border-[1px] text-black border-gray-200 rounded-lg flex flex-col items-stretch justify-between h-[480px] min-w-[calc(100%/1)] lg:min-w-[calc(100%/4.1)]"
                   key={idx}
                 >
                   <div className="flex flex-col p-2 px-6 py-4">
