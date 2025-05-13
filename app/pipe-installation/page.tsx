@@ -56,7 +56,7 @@ const Pipeinstallation = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-        Pipe Installation & Repiping
+          Pipe Installation & Repiping
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,46 @@ const Pipeinstallation = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Build a Strong Foundation for Your Plumbing System
+                Build a Strong Foundation for Your Plumbing System
               </p>
               <p className="text-[17px]">
-              Whether you're constructing a new building or replacing outdated piping, Eastline Mechanical offers expert pipe installation and repiping services for residential and commercial properties. From start to finish, we ensure your system is built with high-quality materials and installed to industry standards for long-lasting reliability.
+                Whether you're constructing a new building or replacing outdated
+                piping, Eastline Mechanical offers expert pipe installation and
+                repiping services for residential and commercial properties.
+                From start to finish, we ensure your system is built with
+                high-quality materials and installed to industry standards for
+                long-lasting reliability.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Say Goodbye to Low Pressure and Frequent Leaks
+                Say Goodbye to Low Pressure and Frequent Leaks
               </p>
               <p className="text-[17px]">
-              Old, corroded, or poorly installed pipes can cause a host of issues—from water discoloration and inconsistent pressure to leaks that damage your walls and floors. Our repiping services involve replacing failing lines with durable materials like PEX or copper, improving both performance and safety throughout your property.
+                Old, corroded, or poorly installed pipes can cause a host of
+                issues—from water discoloration and inconsistent pressure to
+                leaks that damage your walls and floors. Our repiping services
+                involve replacing failing lines with durable materials like PEX
+                or copper, improving both performance and safety throughout your
+                property.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Custom Solutions for Long-Term Performance
+                Custom Solutions for Long-Term Performance
               </p>
               <p className="text-[17px]">
-              Every property is different, and we tailor our pipe installations to your layout, usage demands, and budget. Our team minimizes disruption while delivering a system built to last.<span className="text-blue-500"><Link href="/contact">Contact Eastline Mechanical today</Link></span> to discuss your repiping or new construction needs and ensure your plumbing is built to perform.
+                Every property is different, and we tailor our pipe
+                installations to your layout, usage demands, and budget. Our
+                team minimizes disruption while delivering a system built to
+                last.
+                <span className="text-blue-500">
+                  <Link href="/contact">Contact Eastline Mechanical today</Link>
+                </span>{" "}
+                to discuss your repiping or new construction needs and ensure
+                your plumbing is built to perform.
               </p>
             </div>
           </div>
@@ -111,7 +129,7 @@ const Pipeinstallation = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +139,27 @@ const Pipeinstallation = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +172,9 @@ const Pipeinstallation = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

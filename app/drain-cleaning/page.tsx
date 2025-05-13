@@ -127,7 +127,7 @@ const Drainage = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -137,27 +137,27 @@ const Drainage = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -170,9 +170,9 @@ const Drainage = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

@@ -56,7 +56,7 @@ const Emergencyinstallation = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-        Emergency Plumbing Services
+          Emergency Plumbing Services
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,45 @@ const Emergencyinstallation = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Fast, Reliable Help When You Need It Most
+                Fast, Reliable Help When You Need It Most
               </p>
               <p className="text-[17px]">
-              Plumbing issues don’t wait for a convenient time. Whether it’s a burst pipe, overflowing toilet, or backed-up sewer line, Eastline Mechanical offers emergency plumbing services to the Greater Toronto Area when you need fast and dependable support. We respond quickly to minimize damage and get your system back to normal.
+                Plumbing issues don’t wait for a convenient time. Whether it’s a
+                burst pipe, overflowing toilet, or backed-up sewer line,
+                Eastline Mechanical offers emergency plumbing services to the
+                Greater Toronto Area when you need fast and dependable support.
+                We respond quickly to minimize damage and get your system back
+                to normal.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Prevent Escalating Damage and Downtime
+                Prevent Escalating Damage and Downtime
               </p>
               <p className="text-[17px]">
-              Delaying repairs in a plumbing emergency can lead to costly structural damage and unsafe conditions. Our team arrives prepared to handle urgent situations efficiently and safely, reducing the impact on your home or business. We come fully equipped with the tools and expertise to solve the issue on the spot.
+                Delaying repairs in a plumbing emergency can lead to costly
+                structural damage and unsafe conditions. Our team arrives
+                prepared to handle urgent situations efficiently and safely,
+                reducing the impact on your home or business. We come fully
+                equipped with the tools and expertise to solve the issue on the
+                spot.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Your Peace of Mind is Our Priority
+                Your Peace of Mind is Our Priority
               </p>
               <p className="text-[17px]">
-              With years of experience and a reputation for fast, honest service, you can trust Eastline Mechanical to handle emergencies with professionalism and care. Don’t wait<span className="text-blue-500"><Link href="/contact">contact us</Link></span> anytime for emergency plumbing services that protect your property and your peace of mind.
+                With years of experience and a reputation for fast, honest
+                service, you can trust Eastline Mechanical to handle emergencies
+                with professionalism and care. Don’t wait
+                <span className="text-blue-500">
+                  <Link href="/contact">contact us</Link>
+                </span>{" "}
+                anytime for emergency plumbing services that protect your
+                property and your peace of mind.
               </p>
             </div>
           </div>
@@ -111,7 +128,7 @@ const Emergencyinstallation = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +138,27 @@ const Emergencyinstallation = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +171,9 @@ const Emergencyinstallation = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

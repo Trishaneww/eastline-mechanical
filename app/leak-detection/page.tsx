@@ -56,7 +56,7 @@ const LeakDetection = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-            Leak Detection & Repair
+          Leak Detection & Repair
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,46 @@ const LeakDetection = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Catch Leaks Early to Prevent Bigger Problems
+                Catch Leaks Early to Prevent Bigger Problems
               </p>
               <p className="text-[17px]">
-              Leaks may seem minor at first, but over time they can lead to extensive property damage, mould growth, and skyrocketing water bills. At Eastline Mechanical, we specialise in locating hidden leaks—behind walls, beneath floors, and in hard-to-reach areas—using cutting-edge detection equipment and years of hands-on experience.
+                Leaks may seem minor at first, but over time they can lead to
+                extensive property damage, mould growth, and skyrocketing water
+                bills. At Eastline Mechanical, we specialise in locating hidden
+                leaks—behind walls, beneath floors, and in hard-to-reach
+                areas—using cutting-edge detection equipment and years of
+                hands-on experience.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Protect Your Property from Costly Damage
+                Protect Your Property from Costly Damage
               </p>
               <p className="text-[17px]">
-              The longer a leak goes undetected, the greater the risk to your home or commercial space. A small crack in a pipe or a worn-out fitting can result in warped flooring, stained ceilings, or compromised insulation. Our skilled team responds quickly, identifies the source, and performs lasting repairs using quality materials to keep your system sealed and secure.
+                The longer a leak goes undetected, the greater the risk to your
+                home or commercial space. A small crack in a pipe or a worn-out
+                fitting can result in warped flooring, stained ceilings, or
+                compromised insulation. Our skilled team responds quickly,
+                identifies the source, and performs lasting repairs using
+                quality materials to keep your system sealed and secure.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Reliable Service You Can Count On
+                Reliable Service You Can Count On
               </p>
               <p className="text-[17px]">
-              When you choose Eastline Mechanical, you’re choosing a team committed to quality workmanship and customer satisfaction. We don’t just patch the problem—we provide comprehensive assessments and tailored solutions to prevent future leaks. <span className="text-blue-500"><Link href="/contact">Contact us today</Link></span> to schedule your leak inspection and protect your property before a small drip becomes a big issue.
+                When you choose Eastline Mechanical, you’re choosing a team
+                committed to quality workmanship and customer satisfaction. We
+                don’t just patch the problem—we provide comprehensive
+                assessments and tailored solutions to prevent future leaks.{" "}
+                <span className="text-blue-500">
+                  <Link href="/contact">Contact us today</Link>
+                </span>{" "}
+                to schedule your leak inspection and protect your property
+                before a small drip becomes a big issue.
               </p>
             </div>
           </div>
@@ -111,7 +129,7 @@ const LeakDetection = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +139,27 @@ const LeakDetection = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +172,9 @@ const LeakDetection = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

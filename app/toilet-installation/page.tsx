@@ -56,7 +56,7 @@ const Toiletinstallation = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-        Toilet Installation & Repair
+          Toilet Installation & Repair
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,47 @@ const Toiletinstallation = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Ensure Comfort and Efficiency in Your Bathroom
+                Ensure Comfort and Efficiency in Your Bathroom
               </p>
               <p className="text-[17px]">
-              A properly functioning toilet is essential in every home and business. At Eastline Mechanical, we provide expert toilet installation and repair services to keep your bathroom running smoothly. Whether you're dealing with a constant clog, a running toilet, or planning to upgrade to a more efficient model, our team ensures every installation is precise and every repair long-lasting.
+                A properly functioning toilet is essential in every home and
+                business. At Eastline Mechanical, we provide expert toilet
+                installation and repair services to keep your bathroom running
+                smoothly. Whether you're dealing with a constant clog, a running
+                toilet, or planning to upgrade to a more efficient model, our
+                team ensures every installation is precise and every repair
+                long-lasting.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Avoid Wasted Water and Frustration
+                Avoid Wasted Water and Frustration
               </p>
               <p className="text-[17px]">
-              Issues like leaks, weak flushes, or phantom flushing don’t just waste water—they can increase your utility bills and disrupt your daily routine. Our skilled plumbers diagnose the problem quickly and provide efficient repairs using quality parts. For new installs, we’ll help you choose a reliable, high-efficiency toilet that matches your bathroom layout and budget.
+                Issues like leaks, weak flushes, or phantom flushing don’t just
+                waste water—they can increase your utility bills and disrupt
+                your daily routine. Our skilled plumbers diagnose the problem
+                quickly and provide efficient repairs using quality parts. For
+                new installs, we’ll help you choose a reliable, high-efficiency
+                toilet that matches your bathroom layout and budget.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Professional Results with Lasting Peace of Mind
+                Professional Results with Lasting Peace of Mind
               </p>
               <p className="text-[17px]">
-              Toilet work may seem simple, but poor installation can lead to leaks, wobbling, and long-term water damage. With Eastline Mechanical, you’ll get expert service backed by years of experience and a commitment to getting it right the first time. <span className="text-blue-500"><Link href="/contact">Schedule your repair</Link></span> or new installation today and make sure your toilet system is both efficient and dependable.
+                Toilet work may seem simple, but poor installation can lead to
+                leaks, wobbling, and long-term water damage. With Eastline
+                Mechanical, you’ll get expert service backed by years of
+                experience and a commitment to getting it right the first time.{" "}
+                <span className="text-blue-500">
+                  <Link href="/contact">Schedule your repair</Link>
+                </span>{" "}
+                or new installation today and make sure your toilet system is
+                both efficient and dependable.
               </p>
             </div>
           </div>
@@ -111,7 +130,7 @@ const Toiletinstallation = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +140,27 @@ const Toiletinstallation = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +173,9 @@ const Toiletinstallation = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                             <p>Message</p>
+                             <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                         </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

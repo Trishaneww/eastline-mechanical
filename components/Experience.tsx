@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="backgroundImage brightness-[30%]" />
       <div className="flex flex-col-reverse lg:flex-row justify-center w-full px-6 gap-12 lg:gap-20 pt-20 text-white z-30">
         <section className="flex flex-col items-center justify-center w-full lg:w-1/3 bg-blue-500 text-white rounded-tr-2xl rounded-tl-2xl text-center gap-4 px-2 lg:px-12 py-6">
-          <p className="font-semibold text-2xl lg:text-3xl">
+          <p className="font-semibold text-3xl lg:text-4xl">
             Take the First Step to Your Plumbing Solutions
           </p>
           <p>

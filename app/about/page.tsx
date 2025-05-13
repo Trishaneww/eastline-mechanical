@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Handshake } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -19,9 +20,11 @@ const About = () => {
           With an impressive history of over thirty years in the plumbing
           industry, our team has cultivated unparalleled expertise.
         </p>
-        <Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">
-          Get a quote
-        </Button>
+        <Link href="/contact">
+          <Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">
+            Get a quote
+          </Button>
+        </Link>
       </section>
       <div className="relative w-[90%] lg:w-[70%] lg:h-[500px] overflow-hidden rounded-xl my-12">
         <Image

@@ -30,7 +30,7 @@ const Navbar = () => {
             href={item.href}
             key={idx}
             className={cn(
-              "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950 font-semibold text-base lg:text-lg"
+              "relative dark:text-slate-50 items-center hidden lg:flex space-x-1 text-slate-950  text-base lg:text-lg"
             )}
             aria-label="navigation link"
           >

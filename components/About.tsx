@@ -56,7 +56,7 @@ const About = () => {
             </p>
           </li>
         </ul>
-        <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500">
+        <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500 mt-2">
           Get a quote
         </Button>
         </Link>

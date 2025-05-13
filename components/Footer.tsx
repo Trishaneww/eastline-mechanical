@@ -3,30 +3,24 @@ import Link from "next/link";
 import React from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
+import { services } from "@/data";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col text-black w-full px-2 lg:px-40 bg-[#d0e3ff] py-16">
+    <div className="flex flex-col text-black w-full px-2 lg:px-24 bg-[#d0e3ff] py-16">
       <section className="flex flex-wrap justify-between w-full border-b-[1px] border-gray-300 pb-12 px-6">
-        <p className="text-lg lg:text-2xl font-semibold w-full lg:max-w-[300px]">
+        <p className="text-lg lg:text-2xl font-semibold w-full lg:max-w-[200px]">
           EASTLINE MECHANICAL
         </p>
 
         <div className="flex flex-col mt-8 lg:mt-0">
-          <p className="font-semibold mb-4">Menu</p>
+          <p className="font-semibold mb-4">Services</p>
           <ul className="flex flex-col gap-2">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
+            {services.map((service, idx) => (
+              <li key={idx}>
+                <Link href={`${service.link}`}>{service.title}</Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -72,12 +66,12 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex flex-col mt-8 lg:mt-0">
+        <div className="flex flex-col mt-8 lg:mt-0 lg:max-w-[400px]">
           <p className="font-semibold mb-4">Subscribe</p>
           <p>
             Join our newsletter to stay up to date on features and releases.
           </p>
-          <form className="flex flex-col lg:flex-row items-start justify-center mt-2 gap-4">
+          <form className="flex flex-col lg:flex-row items-start justify-center mt-2 gap-2">
             <Input
               placeholder="name@gmail.com"
               className="h-[50px] w-full bg-white"

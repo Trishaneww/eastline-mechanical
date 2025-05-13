@@ -56,7 +56,7 @@ const Waterinstallation = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-        Water Heater Installation & Repair
+          Water Heater Installation & Repair
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,46 @@ const Waterinstallation = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Hot Water When You Need It, Without the Hassle
+                Hot Water When You Need It, Without the Hassle
               </p>
               <p className="text-[17px]">
-              Few things are more inconvenient than running out of hot water. At Eastline Mechanical, we offer complete water heater installation and repair services for both traditional tank and modern tankless systems. Whether you’re replacing an outdated unit or experiencing issues with inconsistent heating, we ensure your hot water system is running safely and efficiently.
+                Few things are more inconvenient than running out of hot water.
+                At Eastline Mechanical, we offer complete water heater
+                installation and repair services for both traditional tank and
+                modern tankless systems. Whether you’re replacing an outdated
+                unit or experiencing issues with inconsistent heating, we ensure
+                your hot water system is running safely and efficiently.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Protect Your Comfort and Your Utility Bill
+                Protect Your Comfort and Your Utility Bill
               </p>
               <p className="text-[17px]">
-              A failing water heater doesn’t just impact your daily comfort—it can spike energy costs and even cause flooding if the tank leaks. Our team will assess your current unit and recommend the best course of action, whether that’s a precision repair or an energy-efficient replacement tailored to your household’s needs.
+                A failing water heater doesn’t just impact your daily comfort—it
+                can spike energy costs and even cause flooding if the tank
+                leaks. Our team will assess your current unit and recommend the
+                best course of action, whether that’s a precision repair or an
+                energy-efficient replacement tailored to your household’s needs.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Professional Installations that Last
+                Professional Installations that Last
               </p>
               <p className="text-[17px]">
-              Installing a water heater requires proper setup, secure connections, and code compliance. We handle the process from start to finish, so you don’t have to worry about future issues. Trust Eastline Mechanical to keep your hot water flowing reliably.<span className="text-blue-500"><Link href="/contact">Contact us today</Link></span> to schedule service or request an estimate for a new installation.
+                Installing a water heater requires proper setup, secure
+                connections, and code compliance. We handle the process from
+                start to finish, so you don’t have to worry about future issues.
+                Trust Eastline Mechanical to keep your hot water flowing
+                reliably.
+                <span className="text-blue-500">
+                  <Link href="/contact">Contact us today</Link>
+                </span>{" "}
+                to schedule service or request an estimate for a new
+                installation.
               </p>
             </div>
           </div>
@@ -111,7 +129,7 @@ const Waterinstallation = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +139,27 @@ const Waterinstallation = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +172,9 @@ const Waterinstallation = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated

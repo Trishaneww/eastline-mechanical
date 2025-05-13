@@ -56,7 +56,7 @@ const Fixtureinstallation = () => {
         </Link>
 
         <p className="text-3xl lg:text-4xl font-semibold mt-2">
-        Fixture Installation (Faucets, Sinks, Showers)
+          Fixture Installation (Faucets, Sinks, Showers)
         </p>
 
         <div className="relative w-full lg:h-[500px] overflow-hidden rounded-xl my-12">
@@ -73,28 +73,45 @@ const Fixtureinstallation = () => {
           <div className="w-full lg:w-2/3 flex flex-col gap-6">
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Elevate Your Space with Modern Fixtures
+                Elevate Your Space with Modern Fixtures
               </p>
               <p className="text-[17px]">
-              New faucets, sinks, and showers can refresh the look of your kitchen or bathroom while improving performance and water efficiency. At Eastline Mechanical, we offer professional fixture installation services that combine clean aesthetics with reliable plumbing performance—whether you're renovating a space or replacing old, worn-out hardware.
+                New faucets, sinks, and showers can refresh the look of your
+                kitchen or bathroom while improving performance and water
+                efficiency. At Eastline Mechanical, we offer professional
+                fixture installation services that combine clean aesthetics with
+                reliable plumbing performance—whether you're renovating a space
+                or replacing old, worn-out hardware.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Get it Done Right the First Time
+                Get it Done Right the First Time
               </p>
               <p className="text-[17px]">
-              Improperly installed fixtures can lead to slow leaks, water damage, and poor water pressure. Our experienced plumbers ensure your new installations are properly sealed, aligned, and fully functional from day one. We work with all brands and styles and offer recommendations suited to your home or business design.
+                Improperly installed fixtures can lead to slow leaks, water
+                damage, and poor water pressure. Our experienced plumbers ensure
+                your new installations are properly sealed, aligned, and fully
+                functional from day one. We work with all brands and styles and
+                offer recommendations suited to your home or business design.
               </p>
             </div>
 
             <div className="flex flex-col text-left lg:w-[85%]">
               <p className="text-[17px] font-semibold">
-              Upgrade for Efficiency and Value
+                Upgrade for Efficiency and Value
               </p>
               <p className="text-[17px]">
-              Modern plumbing fixtures can help lower water consumption, reduce monthly bills, and enhance daily convenience. With Eastline Mechanical, you’ll enjoy a smooth installation process and long-term peace of mind.<span className="text-blue-500"><Link href="/contact">Book your fixture upgrade today</Link></span> and bring both style and efficiency to your home or commercial space.
+                Modern plumbing fixtures can help lower water consumption,
+                reduce monthly bills, and enhance daily convenience. With
+                Eastline Mechanical, you’ll enjoy a smooth installation process
+                and long-term peace of mind.
+                <span className="text-blue-500">
+                  <Link href="/contact">Book your fixture upgrade today</Link>
+                </span>{" "}
+                and bring both style and efficiency to your home or commercial
+                space.
               </p>
             </div>
           </div>
@@ -111,7 +128,7 @@ const Fixtureinstallation = () => {
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Jacob Johns"
                   name="full_name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -121,27 +138,27 @@ const Fixtureinstallation = () => {
                 <p>Email</p>
                 <Input
                   type="text"
-                  placeholder="Email"
+                  placeholder="johndoe@gmail.com"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="(111) 111 1111"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Website Url</p>
+                <p>Postal Code</p>
                 <Input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Postal Code"
                   name="website"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
                 />
@@ -154,9 +171,9 @@ const Fixtureinstallation = () => {
               </Button>
 
               {/* <div className="flex flex-col items-start gap-1">
-                    <p>Message</p>
-                    <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                </div> */}
+                              <p>Message</p>
+                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
+                          </div> */}
             </div>
             <p className="text-left text-sm text-gray-500">
               By submitting your contact details, you agree to receive automated
