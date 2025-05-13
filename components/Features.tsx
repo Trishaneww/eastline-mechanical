@@ -1,6 +1,9 @@
 import React from "react";
 import WavyCircle from "./WavyCircle";
-import { CalendarRange } from "lucide-react";
+import { CalendarRange, Clock, PiggyBank } from "lucide-react";
+import { BiMoney } from "react-icons/bi";
+import { CiMoneyBill } from "react-icons/ci";
+import { MdPlumbing } from "react-icons/md";
 
 const Features = () => {
   return (
@@ -8,42 +11,36 @@ const Features = () => {
         <div className="flex flex-col justify-center items-center lg:w-1/3">
           <WavyCircle>
             <div className="flex justify-center items-center p-6 bg-white rounded-full text-blue-600">
-              <CalendarRange size={40} />
+              <Clock size={40} />
             </div>
           </WavyCircle>
-          <p className="font-semibold text-xl">Choose Plumbing Service</p>
+          <p className="font-semibold text-xl">Reliable, Fast-Response Service</p>
           <p className="w-full mt-2 text-center">
-            Browse our range of plumbing services tailored to address various
-            issues in your home or business. Select the service that fits your
-            needs.
+          Plumbing issues can’t wait. We show up on time, fully prepared to get the job done—no delays, no excuses.
           </p>
         </div>
 
         <div className="flex flex-col justify-center items-center lg:w-1/3">
           <WavyCircle>
             <div className="flex justify-center items-center p-6 bg-white rounded-full text-blue-600">
-              <CalendarRange size={40} />
+              <MdPlumbing size={40} />
             </div>
           </WavyCircle>
-          <p className="font-semibold text-xl">Choose Plumbing Service</p>
+          <p className="font-semibold text-xl">Expert Workmanship, Every Time</p>
           <p className="w-full mt-2 text-center">
-            Browse our range of plumbing services tailored to address various
-            issues in your home or business. Select the service that fits your
-            needs.
+          With years of experience across all plumbing sectors, we deliver high-quality results you can trust.
           </p>
         </div>
 
         <div className="flex flex-col justify-center items-center lg:w-1/3">
           <WavyCircle>
             <div className="flex justify-center items-center p-6 bg-white rounded-full text-blue-600">
-              <CalendarRange size={40} />
+              <PiggyBank size={40} />
             </div>
           </WavyCircle>
-          <p className="font-semibold text-xl">Choose Plumbing Service</p>
+          <p className="font-semibold text-xl">Honest Quotes & Transparent Pricing</p>
           <p className="w-full mt-2 text-center">
-            Browse our range of plumbing services tailored to address various
-            issues in your home or business. Select the service that fits your
-            needs.
+          No hidden fees or surprise costs—just clear, upfront pricing and honest recommendations you can rely on.
           </p>
         </div>
       </div>

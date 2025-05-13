@@ -42,14 +42,12 @@ const Hero = () => {
   };
   return (
     <div className="flex flex-col text-black justify-start items-center text-center gap-4 mt-12 lg:mt-28 z-20 px-6 lg:h-[100vh]">
-      <p className="font-bold text-4xl lg:text-6xl lg:w-1/2">
+      <p className="font-bold text-4xl lg:text-6xl lg:w-[55%]">
         Eastline <span className="text-blue-500">Mechanical</span> - Fast &
         Reliable Plumbing Services
       </p>
       <p className="lg:w-1/2 mt-4 text-base lg:text-lg">
-        Your trusted partner for fast, reliable, and professional plumbing and
-        rooter services. Whether it's a clogged drain, emergency plumbing, or a
-        full pipe replacement, SwiftRooter has you covered 24/7.
+      Your trusted plumbing experts serving the GTA with fast, reliable, and professional service. From emergency repairs to new builds, Eastline Mechanical gets the job done right.
       </p>
 
       <section className="flex justify-center items-center">

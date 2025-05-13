@@ -28,14 +28,14 @@ const Testimonials: React.FC = () => {
           <p className="text-sm lg:text-base mt-6 text-blue-500">
             - TESTIMONIALS -
           </p>
-          <p className="text-3xl lg:text-5xl lg:w-1/2  font-semibold">
+          <p className="text-3xl lg:text-5xl w-full  font-semibold">
             What our customers say
           </p>
-          <p className="text-base lg:text-lg text-slate-600 lg:w-1/2">
+          {/* <p className="text-base lg:text-lg text-slate-600 lg:w-1/2">
             Individually tailored plumbing solutions designed with your unique
             needs and preferences in mind, ensuring the perfect fit for your
             home or business.
-          </p>
+          </p> */}
         </section>
 
         <div className="lg:hidden relative xl:max-w-[1300px] max-h-full mx-auto mt-12 w-full">

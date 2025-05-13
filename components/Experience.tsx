@@ -12,69 +12,69 @@ const Experience = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-center w-full px-6 gap-12 lg:gap-20 pt-20 text-white z-30">
         <section className="flex flex-col items-center justify-center w-full lg:w-1/3 bg-blue-500 text-white rounded-tr-2xl rounded-tl-2xl text-center gap-4 px-2 lg:px-12 py-6">
           <p className="font-semibold text-3xl lg:text-4xl">
-            Take the First Step to Your Plumbing Solutions
+            Start Your Plumbing Project with Confidence
           </p>
           <p>
-            Plumbing problems may seem like obstacles, but with the right
-            expertise and solutions, they become opportunities for improvement.
-            Take the first step today and let us turn your plumbing challenges
-            into smooth-running systems and peace of mind.
+          Plumbing issues don’t have to be stressful. With the right team on your side, they become opportunities to improve comfort, efficiency, and peace of mind. Take the first step today—Eastline Mechanical is ready to deliver solutions you can trust.
           </p>
         </section>
 
         <section className="flex flex-col w-full lg:w-1/3">
           <p className="text-sm lg:text-base">- OUR APPROACH -</p>
           <p className="text-3xl lg:text-4xl font-semibold text-left mt-4">
-            We're committed to guaranteeing customer satisfaction and excellence
+            What You Can Expect From Eastline
           </p>
 
           <p className="text-base text-left mt-4">
-          At Charnwood Plumbing, we take a customer-centric approach, focusing on delivering exceptional service and exceeding expectations. With our highly skilled team of plumbers, we prioritize quality workmanship, attention to detail, and transparent communication to ensure your complete satisfaction. You can expect professionalism, reliability, and a commitment to providing reliable and efficient plumbing solutions tailored to your specific needs.
+            At Eastline Mechanical, we take pride in our customer-first
+            approach—delivering high-quality plumbing solutions with care and
+            precision. Our skilled team is committed to clear communication,
+            reliable service, and expert workmanship on every job. You can
+            expect professionalism, attention to detail, and results that are
+            built to last.
           </p>
 
           <ul className="grid grid-cols-1 lg:grid-cols-2 place-content-center gap-2 mt-6">
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Timely Service</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Customer Satisfaction</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Upfront Pricing</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Skilled Team</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Attention to Detail</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Trusted Reputation</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Tailored Solutions</p>
             </li>
 
             <li className="flex items-center gap-2">
-              <CircleCheck size={18}/>
-              <p className="text-base">10+ years experience</p>
+              <CircleCheck size={18} />
+              <p className="text-base">Transparent Communication</p>
             </li>
           </ul>
-
-         
         </section>
       </div>
     </section>

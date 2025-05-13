@@ -2,10 +2,11 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
-import { Handshake } from "lucide-react";
+import { BicepsFlexed, Handshake, Heart } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { MdPlumbing } from "react-icons/md";
 
 const About = () => {
   return (
@@ -14,10 +15,10 @@ const About = () => {
       <section className="flex flex-col md:items-center justify-center gap-4 text-left md:text-center px-6 w-full">
         <p className="text-base text-blue-500 mt-20 lg:mt-32">- ABOUT US -</p>
         <p className="text-3xl md:text-5xl md:w-1/2 xl:w-1/3 font-semibold">
-          Over 10 years plumbing experience
+          Over 15 years plumbing experience
         </p>
         <p className="text-base md:text-lg text-slate-600 md:w-1/2 xl:w-1/3">
-          With an impressive history of over thirty years in the plumbing
+          With an impressive history of over fifteen years in the plumbing
           industry, our team has cultivated unparalleled expertise.
         </p>
         <Link href="/contact">
@@ -45,25 +46,25 @@ const About = () => {
         </p>
 
         <section className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-6 lg:mt-10">
-          <div className="flex flex-col bg-white px-6 py-4 shadow-lg rounded-lg gap-2">
-            <Handshake className="text-blue-500" />
+          <div className="flex flex-col bg-white px-6 py-8 shadow-lg rounded-lg gap-2">
+            <Handshake className="text-blue-500 mb-2" />
             <p className="font-semibold text-lg">Trust</p>
-            <p>Quality you can afford, reliability you can count on.</p>
+            <p>Built through honest work and clear communication.</p>
           </div>
-          <div className="flex flex-col bg-white px-6 py-4 shadow-lg rounded-lg gap-2">
-            <Handshake className="text-blue-500" />
-            <p className="font-semibold text-lg">Trust</p>
-            <p>Quality you can afford, reliability you can count on.</p>
+          <div className="flex flex-col bg-white px-6 py-8 shadow-lg rounded-lg gap-2">
+            <MdPlumbing className="text-blue-500 mb-2" size={25}/>
+            <p className="font-semibold text-lg">Quality</p>
+            <p>Professional results at a fair and affordable price.</p>
           </div>
-          <div className="flex flex-col bg-white px-6 py-4 shadow-lg rounded-lg gap-2">
-            <Handshake className="text-blue-500" />
-            <p className="font-semibold text-lg">Trust</p>
-            <p>Quality you can afford, reliability you can count on.</p>
+          <div className="flex flex-col bg-white px-6 py-8 shadow-lg rounded-lg gap-2">
+            <BicepsFlexed className="text-blue-500 mb-2" />
+            <p className="font-semibold text-lg">Reliability</p>
+            <p>We show up on time and get the job done right.</p>
           </div>
-          <div className="flex flex-col bg-white px-6 py-4 shadow-lg rounded-lg gap-2">
-            <Handshake className="text-blue-500" />
-            <p className="font-semibold text-lg">Trust</p>
-            <p>Quality you can afford, reliability you can count on.</p>
+          <div className="flex flex-col bg-white px-6 py-8 shadow-lg rounded-lg gap-2">
+            <Heart className="text-blue-500 mb-2" />
+            <p className="font-semibold text-lg">Care</p>
+            <p>We treat your home or business like it’s our own.</p>
           </div>
         </section>
       </div>

@@ -9,7 +9,7 @@ import Image from "next/image";
 import React from "react";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
-import { toast } from "sonner";
+import { toast, Toaster } from "sonner";
 import Link from "next/link";
 import { services } from "@/data";
 
@@ -209,6 +209,7 @@ const Commercialplumbing = () => {
 
       <CTA />
       <Footer />
+      <Toaster />
     </div>
   );
 };
