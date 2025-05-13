@@ -108,7 +108,7 @@ const Fixtureinstallation = () => {
                 Eastline Mechanical, you’ll enjoy a smooth installation process
                 and long-term peace of mind.
                 <span className="text-blue-500">
-                  <Link href="/contact">Book your fixture upgrade today</Link>
+                  <Link href="/contact"> Book your fixture upgrade today</Link>
                 </span>{" "}
                 and bring both style and efficiency to your home or commercial
                 space.

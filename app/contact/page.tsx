@@ -79,7 +79,7 @@ const Contact = () => {
               <div className="flex flex-col">
                 <p className="font-semibold">Call us</p>
                 <Link
-                  href="mailto:eastlinemechanical@gmail.com"
+                  href="tel:416-995-4979"
                   className="underline"
                 >
                   (111) 111 1111

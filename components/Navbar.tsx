@@ -41,8 +41,8 @@ const Navbar = () => {
 
       <div className="hidden lg:flex gap-8 items-center lg:w-1/3 justify-end">
         <Link
-          href="mailto:trishane@figmentstudios.ca">
-          <Button className="h-[45px] w-[160px] text-base bg-blue-500">Request a call</Button>
+          href="tel:416-995-4979">
+          <Button className="h-[45px] w-[160px] text-base bg-blue-500">Call us now</Button>
         </Link>
       </div>
 
