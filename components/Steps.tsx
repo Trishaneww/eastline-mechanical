@@ -1,4 +1,4 @@
-import { CalendarRange } from "lucide-react";
+import { BookCheck, CalendarRange, CircleCheckBig } from "lucide-react";
 import React from "react";
 import WavyCircle from "./WavyCircle";
 
@@ -20,7 +20,7 @@ const Steps = () => {
         <div className="flex flex-col justify-center items-center lg:w-1/3">
           <WavyCircle>
             <div className="flex justify-center items-center p-6 bg-white rounded-full text-blue-600">
-              <CalendarRange size={40} />
+              <BookCheck size={40} />
             </div>
           </WavyCircle>
           <p className="font-semibold text-xl">1. Choose Plumbing Service</p>
@@ -46,7 +46,7 @@ const Steps = () => {
         <div className="flex flex-col justify-center items-center lg:w-1/3">
           <WavyCircle>
             <div className="flex justify-center items-center p-6 bg-white rounded-full text-blue-600">
-              <CalendarRange size={40} />
+              <CircleCheckBig size={40} />
             </div>
           </WavyCircle>
           <p className="font-semibold text-xl">

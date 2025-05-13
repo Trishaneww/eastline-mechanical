@@ -7,7 +7,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div className="flex flex-col lg:flex-row px-6 lg:px-60 xl:px-80 mt-32">
-      <section className="flex flex-col w-full lg:w-1/2 gap-4">
+      <section className="flex flex-col w-full lg:w-1/2 gap-4 lg:min-w-[600px]">
       <p className="text-blue-500 mt-8 text-sm lg:text-base">- OUR COMMITMENT TO YOU -</p>
         <p className="text-3xl lg:text-4xl font-semibold text-left">
           Serving the Local Community for Over 15 Years
@@ -60,17 +60,17 @@ const About = () => {
           </li>
         </ul>
         <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500 mt-6">
-          Get a quote
+          Get a free quote
         </Button>
         </Link>
         
       </section>
 
-      <section className="w-full lg:w-1/2 flex justify-end mt-8 lg:mt-16">
+      <section className="w-full lg:w-1/2 lg:min-w-[600px] flex justify-end mt-8 lg:mt-16">
         <Image
           width={1000}
           height={1000}
-          src="/images/about.png"
+          src="/images/about2.png"
           alt="about us photo"
           className="rounded-lg lg:max-w-[500px]"
         />

@@ -12,6 +12,7 @@ import { useState } from "react";
 import { toast, Toaster } from "sonner";
 import Link from "next/link";
 import { services } from "@/data";
+import { Textarea } from "@/components/ui/textarea";
 
 const Drainage = () => {
   const [emailError, setEmailError] = useState("");
@@ -49,7 +50,7 @@ const Drainage = () => {
     <div className="flex flex-col items-center bg-[#FAFAFA]">
       <Navbar />
 
-      <div className="flex flex-col px-6 lg:px-60 xl:px-[22rem] w-full mt-20 gap-2">
+      <div className="flex flex-col px-6 lg:px-60 xl:px-[22rem] w-full mt-32 lg:mt-56 gap-2">
         <Link className="flex gap-1 items-center" href="/services">
           <ChevronLeft size={20} />
           <p className="text-base lg:text-lg">All services</p>
@@ -63,9 +64,9 @@ const Drainage = () => {
           <Image
             height={1000}
             width={1000}
-            src="/images/drainage.avif"
+            src="/images/drain-cleaning.jpg"
             alt="drainage main image"
-            className="object-cover w-full"
+            className="h-full w-full"
           />
         </div>
 
@@ -154,14 +155,13 @@ const Drainage = () => {
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-                <p>Postal Code</p>
-                <Input
-                  type="text"
-                  placeholder="Postal Code"
-                  name="website"
-                  className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
-                />
-              </div>
+              <p>Message</p>
+              <Textarea
+                placeholder="Your message"
+                name="website"
+                className="w-full h-[150px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+              />
+            </div>
               <Button
                 type="submit"
                 className="w-full h-[50px] bg-blue-500 text-white text-base"
@@ -174,11 +174,7 @@ const Drainage = () => {
                               <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
                           </div> */}
             </div>
-            <p className="text-left text-sm text-gray-500">
-              By submitting your contact details, you agree to receive automated
-              SMS/MMS messages from Eastline Mechanical. Message & data rates
-              may apply.
-            </p>
+            
           </form>
         </section>
 
@@ -187,7 +183,7 @@ const Drainage = () => {
             View other services
           </p>
 
-          <section className="flex flex-wrap justify-between gap-4 lg:gap-0 items-center mt-10">
+          <section className="flex flex-wrap justify-between gap-4 lg:gap-0 items-center mt-4 lg:mt-10">
             {services.slice(1, 4).map((service, idx) => (
               <div
                 className="flex flex-col border-[1px] border-gray-300 rounded-lg w-full h-[460px] max-w-[360px] lg:w-[32%] overflow-hidden"

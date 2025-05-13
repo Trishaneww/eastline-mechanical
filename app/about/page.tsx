@@ -2,7 +2,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
-import { BicepsFlexed, Handshake, Heart } from "lucide-react";
+import { BicepsFlexed, CircleCheck, Handshake, Heart } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -13,7 +13,7 @@ const About = () => {
     <div className="flex flex-col items-center bg-[#FAFAFA]">
       <Navbar />
       <section className="flex flex-col md:items-center justify-center gap-4 text-left md:text-center px-6 w-full">
-        <p className="text-base text-blue-500 mt-20 lg:mt-32">- ABOUT US -</p>
+        <p className="text-base text-blue-500  mt-32 lg:mt-56">- ABOUT US -</p>
         <p className="text-3xl md:text-5xl md:w-1/2 xl:w-1/3 font-semibold">
           Over 15 years plumbing experience
         </p>
@@ -23,7 +23,7 @@ const About = () => {
         </p>
         <Link href="/contact">
           <Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">
-            Get a quote
+            Get a free quote
           </Button>
         </Link>
       </section>
@@ -68,6 +68,80 @@ const About = () => {
           </div>
         </section>
       </div>
+
+      <div className="flex flex-col lg:flex-row-reverse items-stretch px-6 lg:w-[1200px] mt-32">
+      <section className="flex flex-col w-full gap-4 lg:min-w-[600px]">
+      <p className="text-blue-500 mt-8 text-sm lg:text-base">- OUR MISSION -</p>
+        <p className="text-3xl lg:text-4xl font-semibold text-left">
+        Provide dependable solutions for numerous pipe networks
+        </p>
+        <p className="text-base">
+        A dependable plumber specialises in diverse pipe network solutions, delivering reliable services tailored to varied needs and ensuring long-term performance and customer satisfaction
+        </p>
+        <ul className="flex flex-col gap-2">
+          <li className="flex items-start justify-start gap-2">
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
+            <p>
+              Customer-centric excellence
+            </p>
+          </li>
+          <li className="flex items-start justify-start gap-2">
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
+            <p>
+            Customer-centric excellence
+            </p>
+          </li>
+          <li className="flex items-start justify-start gap-2">
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
+            <p>
+            Customer-centric excellence
+            </p>
+          </li>
+        </ul>
+        <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500 mt-6">
+          Contact us
+        </Button>
+        </Link>
+        
+      </section>
+
+      <section className="w-full lg:min-w-[600px] flex justify-start mt-8 lg:-mt-6">
+        <Image
+          width={1000}
+          height={1000}
+          src="/images/about2.png"
+          alt="about us photo"
+          className="rounded-lg lg:max-w-[450px]"
+        />
+      </section>
+    </div>
+
+    <div className="flex flex-col lg:flex-row items-stretch px-6 lg:w-[1200px] mt-32">
+      <section className="flex flex-col w-full gap-4 lg:min-w-[600px]">
+      <p className="text-blue-500 mt-8 text-sm lg:text-base">— OUR GOALS -</p>
+        <p className="text-3xl lg:text-4xl font-semibold text-left">
+        Provide exceptional plumbing solutions exceeding client expectations
+        </p>
+        <p className="text-base">
+        Our commitment to delivering unmatched plumbing solutions tailored specifically to exceed your needs and anticipations.
+        </p>
+        <Link href="/contact"><Button className="h-[50px] w-[200px] border-[1px] border-white text-base bg-blue-500 mt-6">
+          Get a free quote
+        </Button>
+        </Link>
+        
+      </section>
+
+      <section className="w-full lg:min-w-[600px] flex justify-end mt-8 lg:-mt-6">
+        <Image
+          width={1000}
+          height={1000}
+          src="/images/about4.png"
+          alt="about us photo"
+          className="rounded-lg lg:max-w-[450px]"
+        />
+      </section>
+    </div>
 
       <CTA />
       <Footer />

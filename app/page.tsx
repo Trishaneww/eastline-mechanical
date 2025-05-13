@@ -20,11 +20,11 @@ const page = () => {
       <Navbar />
       <div className="h-[130vh] md:h-[100vh] w-full absolute z-10">
         <Image
-          src="/images/hero.png"
+          src="/images/hero2.jpg"
           width={1000}
           height={1000}
           alt="testimonial images"
-          className="object-cover h-full w-full relative brightness-110"
+          className="object-cover h-full w-full relative brightness-120"
         />
       </div>
       <Hero />
