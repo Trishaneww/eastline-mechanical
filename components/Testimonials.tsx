@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import "../styles/global.scss";
 import { IoIosStar } from "react-icons/io";
+import Image from "next/image";
 
 const Testimonials: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -57,17 +58,25 @@ const Testimonials: React.FC = () => {
                     <p className="text-base font-light">{testimonial.review}</p>
                   </div>
 
-                  <div className="flex flex-col items-start px-6">
-                    <div className="flex items-center">
-                      <p className="">{testimonial.name}</p>
+                  <div className="flex items-center justify-between px-6">
+                    <div className="flex flex-col items-start">
+                      <div className="flex items-center">
+                        <p className="">{testimonial.name}</p>
+                      </div>
+                      <div className="flex items-center text-yellow-500">
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                      </div>
                     </div>
-                    <div className="flex items-center text-yellow-500">
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                    </div>
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/images/google.png"
+                      alt="google logo"
+                    />
                   </div>
                 </div>
               ))}
@@ -90,16 +99,12 @@ const Testimonials: React.FC = () => {
           </button>
         </div>
 
-
-
         <div className="hidden lg:flex relative xl:max-w-[1300px] max-h-full mx-auto mt-12 w-full">
           <div className="w-full ">
             <div
               className="flex w-full transition-transform duration-500 gap-4 lg:-ml-48"
               style={{
-                transform: `translateX(-${
-                  (activeIndex * 100) / 3
-                }%)`,
+                transform: `translateX(-${(activeIndex * 100) / 3}%)`,
               }}
             >
               {testimonials.map((testimonial, idx) => (
@@ -108,20 +113,30 @@ const Testimonials: React.FC = () => {
                   key={idx}
                 >
                   <div className="flex flex-col p-2 px-6 py-4">
-                    <p className="text-base font-light text-left">{testimonial.review}</p>
+                    <p className="text-base font-light text-left">
+                      {testimonial.review}
+                    </p>
                   </div>
 
-                  <div className="flex flex-col items-start px-6">
-                    <div className="flex items-center">
-                      <p className="">{testimonial.name}</p>
+                  <div className="flex items-center justify-between px-6">
+                    <div className="flex flex-col items-start">
+                      <div className="flex items-center">
+                        <p className="">{testimonial.name}</p>
+                      </div>
+                      <div className="flex items-center text-yellow-500">
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                        <IoIosStar />
+                      </div>
                     </div>
-                    <div className="flex items-center text-yellow-500">
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                      <IoIosStar />
-                    </div>
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/images/google.png"
+                      alt="google logo"
+                    />
                   </div>
                 </div>
               ))}
