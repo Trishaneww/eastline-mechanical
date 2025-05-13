@@ -31,7 +31,7 @@ export default function WavyCircle({ children }: WavyCircleProps) {
           height="200"
           clipPath="url(#wavyClip)"
         >
-          <div className="w-full h-full bg-indigo-50" />
+          <div className="w-full h-full bg-[#d0e3ff]" />
         </foreignObject>
       </svg>
 
