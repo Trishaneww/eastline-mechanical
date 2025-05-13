@@ -13,7 +13,7 @@ const About = () => {
           Serving the Local Community for Over 15 Years
         </p>
         <p className="text-base">
-          Serving the Local Community for Over 15 Years: Charnwood Plumbing has
+          Serving the Local Community for Over 15 Years: Eastline Mechanical has
           been proudly serving our local community for nearly 2 decades,
           delivering reliable and trusted plumbing services that have stood the
           test of time.
@@ -22,7 +22,7 @@ const About = () => {
           <li className="flex items-start justify-start gap-2">
             <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
-              <span className="font-semibold">Expert Plumbers:</span>
+              <span className="font-semibold">Expert Plumbers: </span>
                Our team of highly skilled and experienced
               plumbers are equipped with the knowledge and expertise to handle
               any plumbing issue, ensuring precise and efficient solutions.
@@ -31,7 +31,7 @@ const About = () => {
           <li className="flex items-start justify-start gap-2">
             <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
-            <span className="font-semibold"> Comprehensive Services:</span>
+            <span className="font-semibold">Comprehensive Services: </span>
               From routine maintenance and repairs to
               complex installations and renovations, we offer a wide range of
               plumbing services to address all your needs, no matter the scale
@@ -41,7 +41,7 @@ const About = () => {
           <li className="flex items-start justify-start gap-2">
             <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
-            <span className="font-semibold">Quality Workmanship:</span>
+            <span className="font-semibold">Quality Workmanship: </span>
                With a strong focus on delivering exceptional
               workmanship, we take pride in our attention to detail and
               commitment to using top-quality materials, ensuring long-lasting
