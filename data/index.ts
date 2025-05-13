@@ -2,7 +2,7 @@ export const navItems = [
     {
         id:1,
         title: 'About',
-        href:"/"
+        href:"/about"
     },
     {
         id:2,

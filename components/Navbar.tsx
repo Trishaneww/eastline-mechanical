@@ -9,7 +9,7 @@ import { navItems } from "@/data";
 
 const Navbar = () => {
   return (
-    <div className="flex w-[95%] lg:w-[60%] justify-between items-center navbar gap-8 px-4 text-black overflow-hidden py-2 z-30 bg-white rounded-2xl mt-6">
+    <div className="flex w-[95%] lg:w-[60%] justify-between items-center navbar gap-8 px-4 text-black overflow-hidden py-2 z-30 bg-[#FFFF] rounded-2xl mt-6">
       <div className="flex gap-8 items-center w-full lg:w-1/3">
         <Link
           href="/"

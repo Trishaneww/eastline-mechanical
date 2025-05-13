@@ -11,12 +11,14 @@ import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 import React from "react";
 import { Toaster } from "sonner";
+import '../styles/global.scss'
+
 
 const page = () => {
   return (
-    <div className="flex flex-col overflow-hidden items-center #FAFAFA">
+    <div className="flex flex-col overflow-hidden items-center bg-[#FAFAFA] scroll">
       <Navbar />
-      <div className="h-[130vh] md:h-[100vh] w-full absolute">
+      <div className="h-[130vh] md:h-[100vh] w-full absolute z-10">
         <Image
           src="/images/hero.png"
           width={1000}
@@ -31,6 +33,7 @@ const page = () => {
       <Services />
       <Steps />
       <Experience />
+      <div id="testimonials"></div>
       <Testimonials />
       <CTA />
       <Footer />

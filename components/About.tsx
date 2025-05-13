@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <ul className="flex flex-col gap-2">
           <li className="flex items-start justify-start gap-2">
-            <CircleCheck size={40} className="min-h-[30px] min-w-[30px] text-blue-500" />
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
               Expert Plumbers: Our team of highly skilled and experienced
               plumbers are equipped with the knowledge and expertise to handle
@@ -27,7 +27,7 @@ const About = () => {
             </p>
           </li>
           <li className="flex items-start justify-start gap-2">
-            <CircleCheck size={40} className="min-h-[30px] min-w-[30px] text-blue-500" />
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
               Comprehensive Services: From routine maintenance and repairs to
               complex installations and renovations, we offer a wide range of
@@ -36,7 +36,7 @@ const About = () => {
             </p>
           </li>
           <li className="flex items-start justify-start gap-2">
-            <CircleCheck size={40} className="min-h-[30px] min-w-[30px] text-blue-500" />
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
               Quality Workmanship: With a strong focus on delivering exceptional
               workmanship, we take pride in our attention to detail and
@@ -45,7 +45,7 @@ const About = () => {
             </p>
           </li>
           <li className="flex items-start justify-start gap-2">
-            <CircleCheck size={40} className="min-h-[30px] min-w-[30px] text-blue-500" />
+            <CircleCheck size={20} className="min-h-[25px] min-w-[25px] text-blue-500" />
             <p>
               Customer Satisfaction: Our dedication to customer satisfaction is
               at the core of our business. We strive to exceed expectations by

@@ -45,7 +45,7 @@ const Drainage = () => {
     } catch (err) {}
   };
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center bg-[#FAFAFA]">
       <Navbar />
 
       <div className="flex flex-col px-6 lg:px-60 xl:px-[22rem] w-full mt-20 gap-2">
