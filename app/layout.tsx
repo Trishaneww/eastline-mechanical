@@ -9,7 +9,7 @@ const inter = Host_Grotesk({ weight: ["300", "400", "500", "600", "700", "800"],
 export const metadata: Metadata = {
   title: "Eastline Mechanical Plumbing",
   description:
-    "",
+    "Reliable plumbing services in the Greater Toronto Area. Eastline Mechanical offers expert repairs, installations, and emergency plumbing solutions.",
   icons: {
     icon: "/images/logo.png",
   },
