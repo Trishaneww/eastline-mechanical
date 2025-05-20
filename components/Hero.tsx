@@ -59,7 +59,7 @@ const Hero = () => {
           className="max-w-[160px] lg:max-w-[180px]"
         />
         <div className="flex flex-col items-start justify-center text-left">
-          <p className="text-base lg:text-xl font-bold">50+ Customers</p>
+          <p className="text-base lg:text-xl font-bold">100+ Customers</p>
           <p>Rated our service 5 stars on google</p>
         </div>
       </section>
