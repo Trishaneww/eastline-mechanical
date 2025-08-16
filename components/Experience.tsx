@@ -67,12 +67,12 @@ const Experience = () => {
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Tailored Solutions</p>
+              <p className="text-base md:text-lg">Tailored Solutions</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Transparent Communication</p>
+              <p className="text-base md:text-lg">Transparent Communication</p>
             </li>
           </ul>
         </section>
