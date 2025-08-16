@@ -13,35 +13,19 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
 const Contact = () => {
-  const [emailError, setEmailError] = useState("");
-  const [nameError, setNameError] = useState("");
-
   const sendEmail = (e: any) => {
     e.preventDefault();
     try {
-      console.log("hi");
-      if (e.target.email.value === "" || e.target.full_name.value === "") {
-        if (e.target.email.value === "") {
-          setEmailError("Email is required");
-          if (e.target.full_name.value === "") {
-            setNameError("Fullname is required");
-          }
-        }
-      } else {
-        emailjs.sendForm(
-          "service_luvg8op",
-          "template_sx6i957",
-          e.target,
-          "1MxDwCSvQF6Leln4f"
-        );
-        e.target.reset();
-        setEmailError("");
-        setNameError("");
-
-        toast("Email Sent", {
-          description: "We will get back to you shortly",
-        });
-      }
+      emailjs.sendForm(
+        "service_luvg8op",
+        "template_oirz684",
+        e.target,
+        "1MxDwCSvQF6Leln4f"
+      );
+      e.target.reset();
+      toast("Email Sent", {
+        description: "We will get back to you shortly",
+      });
     } catch (err) {}
   };
   return (
@@ -51,7 +35,7 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row gap-16 justify-center mt-32 lg:mt-56 px-6">
         <section className="flex flex-col lg:w-1/4 gap-2">
           <p className="font-semibold text-3xl lg:text-4xl">Contact us</p>
-          <p className="text-left">
+          <p className="text-left md:text-lg">
             Need plumbing assistance? Reach out to us via the form below or call
             us directly for fast service. We're here to help!
           </p>
@@ -78,11 +62,8 @@ const Contact = () => {
               </div>
               <div className="flex flex-col">
                 <p className="font-semibold">Call us</p>
-                <Link
-                  href="tel:416-995-4979"
-                  className="underline"
-                >
-                  (111) 111 1111
+                <Link href="tel:416-995-4979" className="underline">
+                  Your phone number
                 </Link>
               </div>
             </div>
@@ -99,19 +80,21 @@ const Contact = () => {
               <p>Full Name</p>
               <Input
                 type="text"
-                placeholder="Jacob Johns"
-                name="full_name"
+                placeholder="Your first name"
+                name="name"
                 className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                required
               />
             </div>
 
             <div className="flex flex-col items-start gap-1 w-full">
               <p>Email</p>
               <Input
-                type="text"
-                placeholder="johndoe@gmail.com"
+                type="email"
+                placeholder="Your email"
                 name="email"
                 className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                required
               />
             </div>
 
@@ -119,9 +102,10 @@ const Contact = () => {
               <p>Phone Number</p>
               <Input
                 type="text"
-                placeholder="(111) 111 1111"
-                name="website"
+                placeholder="Your phone number"
+                name="phone"
                 className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                required
               />
             </div>
 
@@ -129,7 +113,7 @@ const Contact = () => {
               <p>Message</p>
               <Textarea
                 placeholder="Your message"
-                name="website"
+                name="message"
                 className="w-full h-[100px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
               />
             </div>
@@ -139,16 +123,10 @@ const Contact = () => {
             >
               Request a free quote
             </Button>
-
-            {/* <div className="flex flex-col items-start gap-1">
-                              <p>Message</p>
-                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                          </div> */}
           </div>
           <p className="text-left text-sm text-gray-500">
-            By submitting your contact details, you agree to receive automated
-            SMS/MMS messages from Eastline Mechanical. Message & data rates may
-            apply.
+            We respect your privacy. Your information will only be used to
+            respond to your inquiry.
           </p>
         </form>
       </div>

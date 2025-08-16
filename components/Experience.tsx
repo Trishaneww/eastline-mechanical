@@ -14,7 +14,7 @@ const Experience = () => {
           <p className="font-semibold text-3xl lg:text-4xl">
             Start Your Plumbing Project with Confidence
           </p>
-          <p>
+          <p className="md:text-lg">
           Plumbing issues don’t have to be stressful. With the right team on your side, they become opportunities to improve comfort, efficiency, and peace of mind. Take the first step today—Eastline Mechanical is ready to deliver solutions you can trust.
           </p>
         </section>
@@ -25,7 +25,7 @@ const Experience = () => {
             What You Can Expect From Eastline
           </p>
 
-          <p className="text-base text-left mt-4">
+          <p className="text-base md:text-lg text-left mt-4">
             At Eastline Mechanical, we take pride in our customer-first
             approach—delivering high-quality plumbing solutions with care and
             precision. Our skilled team is committed to clear communication,
@@ -37,32 +37,32 @@ const Experience = () => {
           <ul className="grid grid-cols-1 lg:grid-cols-2 place-content-center gap-2 mt-6">
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Timely Service</p>
+              <p className="text-base md:text-lg">Timely Service</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Customer Satisfaction</p>
+              <p className="text-base md:text-lg">Customer Satisfaction</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Upfront Pricing</p>
+              <p className="text-base md:text-lg">Upfront Pricing</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Skilled Team</p>
+              <p className="text-base md:text-lg">Skilled Team</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Attention to Detail</p>
+              <p className="text-base md:text-lg">Attention to Detail</p>
             </li>
 
             <li className="flex items-center gap-2">
               <CircleCheck size={18} />
-              <p className="text-base">Trusted Reputation</p>
+              <p className="text-base md:text-lg">Trusted Reputation</p>
             </li>
 
             <li className="flex items-center gap-2">

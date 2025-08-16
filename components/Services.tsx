@@ -16,11 +16,11 @@ const Services = () => {
         <p className="text-3xl lg:text-5xl lg:w-1/2 xl:w-1/3 font-semibold">
         Plumbing solutions tailored for you
         </p>
-        <p className="text-base lg:text-lg text-slate-600 lg:w-1/2 xl:w-1/3">
+        <p className="text-base md:text-xl text-slate-600 lg:w-1/2 xl:w-1/3">
         Individually tailored plumbing solutions designed with your unique needs and preferences in mind, ensuring the perfect fit for your home or business.
         </p>
 
-        <Link href="/services"><Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base">View services</Button></Link>
+        <Link href="/services"><Button className="h-[50px] w-full lg:w-[220px] bg-blue-500 text-white font-semibold text-base md:text-lg">View services</Button></Link>
 
        
       </section>

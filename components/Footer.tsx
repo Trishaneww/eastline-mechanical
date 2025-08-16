@@ -60,19 +60,19 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex flex-col mt-8 lg:mt-0 lg:max-w-[400px]">
+        {/* <div className="flex flex-col mt-8 lg:mt-0 lg:max-w-[400px]">
           <p className="font-semibold mb-4">Get a quote</p>
           <p>
             Drop us your email and we will get back to you asap!
           </p>
           <form className="flex flex-col lg:flex-row items-start justify-center mt-2 gap-2">
             <Input
-              placeholder="name@gmail.com"
+              placeholder="Your email"
               className="h-[50px] w-full bg-white"
             />
             <Button className="h-[50px] w-full lg:w-[160px] text-base bg-blue-500">Submit</Button>
           </form>
-        </div>
+        </div> */}
       </section>
 
       <section className="flex mt-6 gap-6 px-6">

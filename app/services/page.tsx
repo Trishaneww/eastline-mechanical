@@ -15,7 +15,7 @@ const Services = () => {
         <p className="text-3xl md:text-5xl md:w-1/2 xl:w-1/3 font-semibold mt-32 lg:mt-56">
           Plumbing solutions tailored for you
         </p>
-        <p className="text-base md:text-lg text-slate-600 md:w-1/2 xl:w-1/3">
+        <p className="text-base md:text-xl text-slate-600 md:w-1/2 xl:w-1/3">
           Individually tailored plumbing solutions designed with your unique
           needs and preferences in mind, ensuring the perfect fit for your home
           or business.
