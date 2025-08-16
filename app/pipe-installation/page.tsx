@@ -20,7 +20,7 @@ const Pipeinstallation = () => {
     try {
       emailjs.sendForm(
         "service_luvg8op",
-        "template_sx6i957",
+        "template_oirz684",
         e.target,
         "1MxDwCSvQF6Leln4f"
       );
