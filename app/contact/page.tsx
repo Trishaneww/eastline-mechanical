@@ -63,7 +63,7 @@ const Contact = () => {
               <div className="flex flex-col">
                 <p className="font-semibold">Call us</p>
                 <Link href="tel:416-995-4979" className="underline">
-                  Your phone number
+                  416-995-4979
                 </Link>
               </div>
             </div>
