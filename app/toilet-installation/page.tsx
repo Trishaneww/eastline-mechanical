@@ -15,35 +15,19 @@ import { services } from "@/data";
 import { Textarea } from "@/components/ui/textarea";
 
 const Toiletinstallation = () => {
-  const [emailError, setEmailError] = useState("");
-  const [nameError, setNameError] = useState("");
-
   const sendEmail = (e: any) => {
     e.preventDefault();
     try {
-      console.log("hi");
-      if (e.target.email.value === "" || e.target.full_name.value === "") {
-        if (e.target.email.value === "") {
-          setEmailError("Email is required");
-          if (e.target.full_name.value === "") {
-            setNameError("Fullname is required");
-          }
-        }
-      } else {
-        emailjs.sendForm(
-          "service_luvg8op",
-          "template_sx6i957",
-          e.target,
-          "1MxDwCSvQF6Leln4f"
-        );
-        e.target.reset();
-        setEmailError("");
-        setNameError("");
-
-        toast("Email Sent", {
-          description: "We will get back to you shortly",
-        });
-      }
+      emailjs.sendForm(
+        "service_luvg8op",
+        "template_sx6i957",
+        e.target,
+        "1MxDwCSvQF6Leln4f"
+      );
+      e.target.reset();
+      toast("Email Sent", {
+        description: "We will get back to you shortly",
+      });
     } catch (err) {}
   };
   return (
@@ -125,25 +109,27 @@ const Toiletinstallation = () => {
           >
             <Mail className="text-blue-500" size={40} />
             <p className="text-left text-xl font-semibold">Contact us</p>
-            <p>Reach out for a quote or any queries.</p>
+            <p>Reach out for a quote or any inquiries.</p>
             <div className="flex flex-col gap-4 items-end mt-4">
               <div className="flex flex-col items-start gap-1 w-full">
                 <p>Full Name</p>
                 <Input
                   type="text"
-                  placeholder="Jacob Johns"
-                  name="full_name"
+                  placeholder="Your first name"
+                  name="name"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                  required
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
                 <p>Email</p>
                 <Input
-                  type="text"
-                  placeholder="johndoe@gmail.com"
+                  type="email"
+                  placeholder="Your email"
                   name="email"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                  required
                 />
               </div>
 
@@ -151,33 +137,28 @@ const Toiletinstallation = () => {
                 <p>Phone Number</p>
                 <Input
                   type="text"
-                  placeholder="(111) 111 1111"
-                  name="website"
+                  placeholder="Your phone number"
+                  name="phone"
                   className="w-full h-[50px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                  required
                 />
               </div>
 
               <div className="flex flex-col items-start gap-1 w-full">
-              <p>Message</p>
-              <Textarea
-                placeholder="Your message"
-                name="website"
-                className="w-full h-[150px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
-              />
-            </div>
+                <p>Message</p>
+                <Textarea
+                  placeholder="Your message"
+                  name="message"
+                  className="w-full h-[150px] p-2 placeholder:text-gray-500 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-200 bg-gray-50"
+                />
+              </div>
               <Button
                 type="submit"
                 className="w-full h-[50px] bg-blue-500 text-white text-base"
               >
                 Request a free quote
               </Button>
-
-              {/* <div className="flex flex-col items-start gap-1">
-                              <p>Message</p>
-                              <textarea placeholder="Tell us more about your project" name="phone" className="w-full h-[115px] p-2 placeholder:text-slate-50 placeholder:text-base focus-visible:ring-0 border-[1px] border-gray-500 bg-[#242424]" />
-                          </div> */}
             </div>
-            
           </form>
         </section>
 

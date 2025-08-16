@@ -9,7 +9,7 @@ import { navItems, services } from "@/data";
 
 const Navbar = () => {
   return (
-    <div className="flex w-[95%] lg:w-[60%] justify-between items-center navbar gap-8 px-4 text-black py-2 z-30 bg-[#FFFF] rounded-2xl mt-6 fixed">
+    <div className="flex w-[95%] lg:w-[80%] lg:max-w-[1200px] justify-between items-center navbar gap-8 px-4 text-black py-2 z-30 bg-[#FFFF] rounded-2xl mt-6 fixed">
       <div className="flex gap-8 items-center w-full lg:w-1/3">
         <Link
           href="/"
@@ -18,7 +18,7 @@ const Navbar = () => {
           )}
           aria-label="homepage link"
         >
-          <p className="text-lg lg:text-xl font-extrabold">
+          <p className="text-lg md:text-xl lg:text-2xl font-extrabold">
             Eeastline <span className="text-blue-500">Mechanical</span>
           </p>
         </Link>
@@ -40,19 +40,63 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex gap-8 items-center lg:w-1/3 justify-end">
-        <Link
-          href="tel:416-995-4979">
-          <Button className="h-[45px] w-[160px] text-base bg-blue-500"><Phone /> Call us now</Button>
+        <Link href="tel:416-995-4979">
+          <Button className="h-[45px] w-[160px] text-base md:text-lg bg-blue-500">
+            <Phone /> Call us now
+          </Button>
         </Link>
       </div>
 
-<nav className="lg:hidden bg-transparent z-40">
-      <input type="checkbox" id="sidebar-active" />
-      <label htmlFor="sidebar-active" className="open-sidebar-button text-gray-500 flex justify-center items-center rounded-lg border-[1px] border-gray-500 p-2 bg-white">
-        <Menu  size={20}/>
-      </label>
-      <label id="overlay" htmlFor="sidebar-active"></label>
-      <div className="links-container ">
+      <nav className="lg:hidden bg-transparent z-40">
+        <input type="checkbox" id="sidebar-active" />
+        <label
+          htmlFor="sidebar-active"
+          className="open-sidebar-button text-gray-500 flex justify-center items-center rounded-lg border-[1px] border-gray-500 p-2 bg-white"
+        >
+          <Menu size={20} />
+        </label>
+        <label id="overlay" htmlFor="sidebar-active"></label>
+        <div className="links-container">
+          <div className="w-full">
+            <header className="flex justify-between w-full pt-6 px-[20px]">
+              <p className="text-lg md:text-xl lg:text-2xl font-extrabold text-black">
+                Eeastline <span className="text-blue-500">Mechanical</span>
+              </p>
+              <label
+                htmlFor="sidebar-active"
+                className="close-sidebar-button relative text-black"
+              >
+                <X size={22} />
+              </label>
+            </header>
+
+            <div className="flex flex-col w-full mt-6">
+              <Link
+                href="/"
+                className="text-black w-full text-base font-medium"
+                aria-label="navigation link"
+              >
+                Home
+              </Link>
+              {navItems.map((item, idx) => (
+                <Link
+                  href={item.href}
+                  className="text-black text-base font-medium"
+                  key={idx}
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <Link href="tel:416-995-4979">
+            <Button className="rounded-full w-full py-6 text-base self-end bg-blue-500">
+              Call us now
+            </Button>
+          </Link>
+        </div>
+        {/* <div className="links-container ">
         <label htmlFor="sidebar-active" className="close-sidebar-button relative left-80 text-gray-500 mt-9 flex justify-center items-center rounded-lg border-[1px] border-gray-500 p-2 bg-white">
           <X size={20}/>
         
@@ -69,8 +113,8 @@ const Navbar = () => {
         </Link>
         </div>
 
-      </div>
-    </nav>
+      </div> */}
+      </nav>
     </div>
   );
 };

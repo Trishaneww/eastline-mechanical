@@ -7,10 +7,10 @@ const Steps = () => {
     <div className="flex flex-col text-black text-left lg:text-center mt-12 lg:mt-28 px-6 lg:px-60 xl:px-80">
       <section className="flex flex-col lg:items-center justify-center gap-4">
         <p className="text-sm lg:text-base mt-6 text-blue-500">- STEPS -</p>
-        <p className="text-3xl lg:text-5xl lg:w-1/2 font-semibold">
+        <p className="text-3xl lg:text-5xl lg:w-[45%] font-semibold">
           Book your service in 3 easy steps
         </p>
-        <p className="text-base lg:text-lg text-slate-600  lg:w-1/2">
+        <p className="text-base md:text-xl text-slate-600  lg:w-1/2">
           We make it easy to get trusted plumbing help—efficient, reliable, and
           stress-free.
         </p>
