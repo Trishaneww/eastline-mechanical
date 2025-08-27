@@ -19,7 +19,7 @@ const Navbar = () => {
           aria-label="homepage link"
         >
           <p className="text-lg md:text-xl lg:text-2xl font-extrabold">
-            Eeastline <span className="text-blue-500">Mechanical</span>
+            East Line <span className="text-blue-500">Mechanical</span>
           </p>
         </Link>
       </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="w-full">
             <header className="flex justify-between w-full pt-6 px-[20px]">
               <p className="text-lg md:text-xl lg:text-2xl font-extrabold text-black">
-                Eeastline <span className="text-blue-500">Mechanical</span>
+                East Line <span className="text-blue-500">Mechanical</span>
               </p>
               <label
                 htmlFor="sidebar-active"

@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="flex flex-col text-black w-full px-2 lg:px-40 xl:px-60 bg-[#d0e3ff] py-16">
       <section className="flex flex-wrap justify-between w-full border-b-[1px] border-gray-300 pb-12 px-6">
         <p className="text-lg lg:text-2xl font-semibold w-full lg:max-w-[250px]">
-          Eastline <span className="text-blue-500">Mechanical</span>
+          East Line <span className="text-blue-500">Mechanical</span>
         </p>
 
         <div className="flex flex-col mt-8 lg:mt-0">
@@ -53,7 +53,7 @@ const Footer = () => {
       </section>
 
       <section className="flex mt-6 gap-6 px-6">
-        <p className="">@2025 Eastline Mechanical. All rights reserved</p>
+        <p className="">@2025 East Line Mechanical. All rights reserved</p>
         {/* <div className="flex items-center gap-2 text-blue-500">
           <Link href="/">
             <Instagram />

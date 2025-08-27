@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <div className="hero-background flex flex-col text-white justify-start items-center text-center gap-4 pt-32 pb-20 lg:pt-52 z-20 px-6">
       <p className="font-bold text-4xl md:text-6xl md:w-[70%] lg:w-[55%]">
-        Eastline <span className="text-blue-500">Mechanical</span> - Fast &
+        East Line <span className="text-blue-500">Mechanical</span> - Fast &
         Reliable Plumbing Services
       </p>
       <p className="md:w-1/2 mt-4 text-base md:text-xl">

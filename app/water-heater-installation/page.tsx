@@ -62,7 +62,7 @@ const Waterinstallation = () => {
               </p>
               <p className="text-[17px]">
                 Few things are more inconvenient than running out of hot water.
-                At Eastline Mechanical, we offer complete water heater
+                At East Line Mechanical, we offer complete water heater
                 installation and repair services for both traditional tank and
                 modern tankless systems. Whether you’re replacing an outdated
                 unit or experiencing issues with inconsistent heating, we ensure
@@ -91,7 +91,7 @@ const Waterinstallation = () => {
                 Installing a water heater requires proper setup, secure
                 connections, and code compliance. We handle the process from
                 start to finish, so you don’t have to worry about future issues.
-                Trust Eastline Mechanical to keep your hot water flowing
+                Trust East Line Mechanical to keep your hot water flowing
                 reliably.
                 <span className="text-blue-500">
                   <Link href="/contact"> Contact us today</Link>

@@ -62,8 +62,8 @@ const Emergencyinstallation = () => {
               </p>
               <p className="text-[17px]">
                 Plumbing issues don’t wait for a convenient time. Whether it’s a
-                burst pipe, overflowing toilet, or backed-up sewer line,
-                Eastline Mechanical offers emergency plumbing services to the
+                burst pipe, overflowing toilet, or backed-up sewer line, East
+                Line Mechanical offers emergency plumbing services to the
                 Greater Toronto Area when you need fast and dependable support.
                 We respond quickly to minimize damage and get your system back
                 to normal.
@@ -90,8 +90,8 @@ const Emergencyinstallation = () => {
               </p>
               <p className="text-[17px]">
                 With years of experience and a reputation for fast, honest
-                service, you can trust Eastline Mechanical to handle emergencies
-                with professionalism and care. Don’t wait
+                service, you can trust East Line Mechanical to handle
+                emergencies with professionalism and care. Don’t wait
                 <span className="text-blue-500">
                   <Link href="/contact"> contact us</Link>
                 </span>{" "}

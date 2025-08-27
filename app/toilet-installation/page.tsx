@@ -62,7 +62,7 @@ const Toiletinstallation = () => {
               </p>
               <p className="text-[17px]">
                 A properly functioning toilet is essential in every home and
-                business. At Eastline Mechanical, we provide expert toilet
+                business. At East Line Mechanical, we provide expert toilet
                 installation and repair services to keep your bathroom running
                 smoothly. Whether you're dealing with a constant clog, a running
                 toilet, or planning to upgrade to a more efficient model, our

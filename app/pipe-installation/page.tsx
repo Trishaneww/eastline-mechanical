@@ -62,7 +62,7 @@ const Pipeinstallation = () => {
               </p>
               <p className="text-[17px]">
                 Whether you're constructing a new building or replacing outdated
-                piping, Eastline Mechanical offers expert pipe installation and
+                piping, East Line Mechanical offers expert pipe installation and
                 repiping services for residential and commercial properties.
                 From start to finish, we ensure your system is built with
                 high-quality materials and installed to industry standards for
@@ -96,7 +96,7 @@ const Pipeinstallation = () => {
                 <span className="text-blue-500">
                   <Link href="/contact">
                     {" "}
-                    Contact Eastline Mechanical today
+                    Contact East Line Mechanical today
                   </Link>
                 </span>{" "}
                 to discuss your repiping or new construction needs and ensure
