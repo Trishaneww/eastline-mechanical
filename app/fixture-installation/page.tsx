@@ -63,7 +63,7 @@ const Fixtureinstallation = () => {
               <p className="text-[17px]">
                 New faucets, sinks, and showers can refresh the look of your
                 kitchen or bathroom while improving performance and water
-                efficiency. At Eastline Mechanical, we offer professional
+                efficiency. At East Line Mechanical, we offer professional
                 fixture installation services that combine clean aesthetics with
                 reliable plumbing performance—whether you're renovating a space
                 or replacing old, worn-out hardware.
@@ -89,9 +89,9 @@ const Fixtureinstallation = () => {
               </p>
               <p className="text-[17px]">
                 Modern plumbing fixtures can help lower water consumption,
-                reduce monthly bills, and enhance daily convenience. With
-                Eastline Mechanical, you’ll enjoy a smooth installation process
-                and long-term peace of mind.
+                reduce monthly bills, and enhance daily convenience. With East
+                Line Mechanical, you’ll enjoy a smooth installation process and
+                long-term peace of mind.
                 <span className="text-blue-500">
                   <Link href="/contact"> Book your fixture upgrade today</Link>
                 </span>{" "}

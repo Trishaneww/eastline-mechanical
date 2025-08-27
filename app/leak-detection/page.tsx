@@ -63,7 +63,7 @@ const LeakDetection = () => {
               <p className="text-[17px]">
                 Leaks may seem minor at first, but over time they can lead to
                 extensive property damage, mould growth, and skyrocketing water
-                bills. At Eastline Mechanical, we specialise in locating hidden
+                bills. At East Line Mechanical, we specialise in locating hidden
                 leaks—behind walls, beneath floors, and in hard-to-reach
                 areas—using cutting-edge detection equipment and years of
                 hands-on experience.
@@ -89,7 +89,7 @@ const LeakDetection = () => {
                 Reliable Service You Can Count On
               </p>
               <p className="text-[17px]">
-                When you choose Eastline Mechanical, you’re choosing a team
+                When you choose East Line Mechanical, you’re choosing a team
                 committed to quality workmanship and customer satisfaction. We
                 don’t just patch the problem—we provide comprehensive
                 assessments and tailored solutions to prevent future leaks.{" "}

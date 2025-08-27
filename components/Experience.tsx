@@ -15,7 +15,10 @@ const Experience = () => {
             Start Your Plumbing Project with Confidence
           </p>
           <p className="md:text-lg">
-          Plumbing issues don’t have to be stressful. With the right team on your side, they become opportunities to improve comfort, efficiency, and peace of mind. Take the first step today—Eastline Mechanical is ready to deliver solutions you can trust.
+            Plumbing issues don’t have to be stressful. With the right team on
+            your side, they become opportunities to improve comfort, efficiency,
+            and peace of mind. Take the first step today—East Line Mechanical is
+            ready to deliver solutions you can trust.
           </p>
         </section>
 
@@ -26,7 +29,7 @@ const Experience = () => {
           </p>
 
           <p className="text-base md:text-lg text-left mt-4">
-            At Eastline Mechanical, we take pride in our customer-first
+            At East Line Mechanical, we take pride in our customer-first
             approach—delivering high-quality plumbing solutions with care and
             precision. Our skilled team is committed to clear communication,
             reliable service, and expert workmanship on every job. You can

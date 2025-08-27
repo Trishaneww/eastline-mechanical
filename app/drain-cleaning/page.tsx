@@ -61,7 +61,7 @@ const Drainage = () => {
                 Prevent Costly Backups and Keep Water Flowing Freely
               </p>
               <p className="text-[17px]">
-                At Eastline Mechanical, we understand how essential properly
+                At East Line Mechanical, we understand how essential properly
                 functioning drains are to the comfort and hygiene of your home
                 or business. Clogged or slow drains can lead to more than just
                 inconvenience—they’re often warning signs of deeper plumbing
@@ -93,7 +93,7 @@ const Drainage = () => {
                 Routine drain cleaning is a proactive way to avoid emergency
                 plumbing calls and costly repairs. It helps extend the life of
                 your pipes and ensures your plumbing system runs at peak
-                performance. Schedule your service with Eastline Mechanical
+                performance. Schedule your service with East Line Mechanical
                 today and experience the peace of mind that comes with clean,
                 clear, and reliable drains.
               </p>

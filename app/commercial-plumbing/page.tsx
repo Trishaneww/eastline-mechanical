@@ -62,10 +62,10 @@ const Commercialplumbing = () => {
               </p>
               <p className="text-[17px]">
                 Commercial buildings demand robust plumbing systems that can
-                handle high usage and meet strict codes. At Eastline Mechanical,
-                we specialize in plumbing services for retail spaces, offices,
-                restaurants, and new commercial builds—ensuring performance,
-                compliance, and long-term reliability.
+                handle high usage and meet strict codes. At East Line
+                Mechanical, we specialize in plumbing services for retail
+                spaces, offices, restaurants, and new commercial builds—ensuring
+                performance, compliance, and long-term reliability.
               </p>
             </div>
 
