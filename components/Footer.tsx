@@ -41,7 +41,7 @@ const Footer = () => {
           <p className="font-semibold mb-4">Contact</p>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link href="tel:416-995-4979">(416) 995-4979</Link>
+              <Link href="tel:416-995-4979">(416)-995-4979</Link>
             </li>
             <li>
               <Link href="mailto:eastlinemechanical@gmail.com">
